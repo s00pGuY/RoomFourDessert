@@ -10,7 +10,7 @@
 		<script src="assets/js/html5shiv.min.js"></script>
 	<![endif]-->
 	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-	<link rel="stylesheet" href="assets/css/style.css"> 
+	<link rel="stylesheet" media="screen" href="assets/css/style.css"> 
 </head>
 
 <body>
