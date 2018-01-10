@@ -88,7 +88,7 @@
 				</ul>
 			</div>
 			<div class="copyright">
-				<p>&copy;Copyright Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
+				<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
 			</div>
 		</footer>
 	</div>
