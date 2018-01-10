@@ -59,7 +59,14 @@
 		</main>
 		
 		<footer role="contentinfo">
-			<p class="copyright">&copy;Copyright Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
+			<div class="copyright">
+				<p>&copy;Copyright Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
+			</div>
+			<div class="social">
+				<!-- Facebook -->
+				<!-- Twitter -->
+				<!-- Instagram -->
+			</div>
 		</footer>
 	</div>
 </body>
