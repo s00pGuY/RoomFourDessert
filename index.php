@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 	<meta charset="utf-8">
-	<title>Room Four Dessert | Home</title>
+	<title>Room Four Dessert - Home</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,12 @@
 		</header>
 
 		<main id="content" role="main">	
-			
+			<section class="intro"></section>
+			<section class="about"></section>
+			<section class="menu"></section>
+			<section class="catering"></section>
+			<section class="gallery"></section>
+			<section class="contact"></section>
 		</main>
 		
 		<footer role="contentinfo">
