@@ -69,7 +69,15 @@
 					</li>
 					<li class="hours">
 						<h2>Our business hours</h2>
-						<!-- Business hours -->
+						<ul>
+							<li><p>Monday <span>09:00 - 23:00</span></p></li>
+							<li><p>Tuesday <span>09:00 - 23:00</span></p></li>
+							<li><p>Wednesday <span>09:00 - 23:00</span></p></li>
+							<li><p>Thursday <span>09:00 - 23:00</span></p></li>
+							<li><p>Friday <span>09:00 - 00:00</span></p></li>
+							<li><p>Saturday <span>10:00 - 00:00</span></p></li>
+							<li><p>Sunday <span>10:00 - 23:00</span></p></li>
+						</ul>
 					</li>
 					<li class="social">
 						<h2>Get social with us</h2>
