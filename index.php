@@ -63,7 +63,9 @@
 				<ul>
 					<li class="location">
 						<h2>Find us</h2>
-						<!-- Address -->
+						<p>Room Four Dessert<br>114 Deane Road<br>Bolton<br>BL3 5DL</p>
+						<p>Phone: +44 1204 214257</p>
+						<p>Email: <a href="mailto:info@roomfourdessert.co.uk">info@roomfourdessert.co.uk</a></p>
 					</li>
 					<li class="hours">
 						<h2>Our business hours</h2>
