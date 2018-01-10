@@ -17,7 +17,16 @@
 	<div class="container">
 		<header role="banner">
 			<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
-			<nav></nav>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Menu</a></li>
+					<li><a href="">Catering</a></li>
+					<li><a href="">Gallery</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</nav>
 		</header>
 
 		<main id="content" role="main">	
