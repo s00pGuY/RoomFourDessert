@@ -81,9 +81,15 @@
 					</li>
 					<li class="social">
 						<h2>Get social with us</h2>
-						<!-- Facebook -->
-						<!-- Twitter -->
-						<!-- Instagram -->
+						<a href="https://www.instagram.com/roomfourdessert/">
+							<img src="assets/images/instagram-logo.svg" width="28" height="28" alt="">
+						</a>
+						<a href="https://twitter.com/RoomFourDessert">
+							<img src="assets/images/twitter-logo.svg" width="28" height="28" alt="">
+						</a>
+						<a href="https://www.facebook.com/roomfourdessert">
+							<img src="assets/images/facebook-logo.svg" width="28" height="28" alt="">
+						</a>
 					</li>
 				</ul>
 			</div>
