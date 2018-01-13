@@ -1,6 +1,6 @@
 <?php 
 include_once("header.php");
-$page_title = 'Event Catering - Room Four Dessert';
+$page_title = 'Event catering - Room Four Dessert';
 $page_desc = '';
 $page_keywords = '';
 ?>
