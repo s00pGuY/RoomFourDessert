@@ -9,6 +9,13 @@ $page_keywords = '';
 			<section class="intro">
 				<h1>Contact us</h1>
 			</section>
+			<section class="contact-form">
+				<!-- Contact Form -->
+			</section>
+			<section class="find-us">
+				<h2>Find us</h2>
+				<!-- Interactive Map of location -->
+			</section>
 		</main>
 
 <?php include_once("footer.php"); ?>
