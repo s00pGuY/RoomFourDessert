@@ -25,7 +25,7 @@
 					<li><a href="menu.php">Menu</a></li>
 					<li><a href="event-catering.php">Catering</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="contact.php">Contact us</a></li>
+					<li><a href="contact-us.php">Contact us</a></li>
 				</ul>
 			</nav>
 		</header>
