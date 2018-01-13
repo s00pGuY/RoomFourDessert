@@ -21,7 +21,7 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="about.php">About</a></li>
+					<li><a href="about-us.php">About</a></li>
 					<li><a href="menu.php">Menu</a></li>
 					<li><a href="event-catering.php">Catering</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
