@@ -2,9 +2,9 @@
 <html lang="en-gb">
 <head>
 	<meta charset="utf-8">
-	<title><?php echo $page_title ?></title>
-	<meta name="description" content="<?php echo $page_desc ?>">
-	<meta name="keywords" content="<?php echo $page_keywords ?>">
+	<title><?php echo $page_title; ?></title>
+	<meta name="description" content="<?php echo $page_desc; ?>">
+	<meta name="keywords" content="<?php echo $page_keywords; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.min.js"></script>
