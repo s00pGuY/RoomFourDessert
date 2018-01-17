@@ -61,3 +61,13 @@ a img {
 	width: auto !important;
 	white-space: normal !important;
 }
+
+/* Header */
+header, nav {
+	border: 1px solid red;
+}
+
+header {
+	width: 100%;
+	height: 6.4rem;
+}
