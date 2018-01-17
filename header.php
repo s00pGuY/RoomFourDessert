@@ -17,7 +17,7 @@
 	<div class="container">
 		<header role="banner">
 			<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
-			<a href="index.php"><img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt=""></a>
+			<a href="index.php" class="logo"><img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt=""></a>
 			<nav>
 				<ul>
 					<li><a href="index.php">Home</a></li>
