@@ -77,3 +77,7 @@ header {
 	width: 18rem;
 	height: 100%;
 }
+
+nav ul {
+	display: none;
+}
