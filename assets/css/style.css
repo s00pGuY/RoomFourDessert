@@ -102,6 +102,7 @@ nav ul {
 			transition: opacity 0.15s linear;
 	background-color: transparent;
 	border: 0;
+	outline: none;
 }
 
 .hamburger:hover {
