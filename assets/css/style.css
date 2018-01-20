@@ -83,10 +83,7 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
-}
-
-nav ul {
-	display: none;
+	height: 6.4rem;
 }
 
 /* Hamburger elastic - https://jonsuh.com/hamburgers/ */
@@ -189,3 +186,20 @@ nav ul {
 	        transition-delay: 0.075s;
 }
 
+nav ul {
+	margin-top: 6.4rem;
+	transition: transform 0.3s ease-in-out;
+	transform: translateY(-100vh);
+}
+
+.nav-open ul {
+	transform: translateY(0);
+}
+
+nav ul li a {
+	display: block;
+	padding: 1.2rem;
+	font-size: 2rem;
+	text-align: center;
+	color: #000;
+}
