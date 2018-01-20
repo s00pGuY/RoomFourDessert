@@ -202,3 +202,9 @@ nav ul li a {
 	text-align: center;
 	color: #000;
 }
+
+/* Footer */
+.copyright {
+	padding: 0.8rem;
+	text-align: center;
+}
