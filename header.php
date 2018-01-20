@@ -18,7 +18,7 @@
 		<header role="banner">
 			<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
 			<a href="index.php" class="logo"><img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt=""></a>
-			<nav>
+			<nav role="navigation" id="nav">
 				<button class="hamburger hamburger--elastic" type="button">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
