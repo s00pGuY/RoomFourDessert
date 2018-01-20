@@ -166,7 +166,7 @@ nav ul {
 			transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.hamburger--elastic.is-active .hamburger-inner {
+.nav-open .hamburger--elastic .hamburger-inner {
 	-webkit-transform: translate3d(0, 1rem, 0) rotate(135deg);
 	        transform: translate3d(0, 1rem, 0) rotate(135deg);
 	-webkit-transition-delay: 0.075s;
@@ -174,17 +174,18 @@ nav ul {
 	        transition-delay: 0.075s;
 }
 
-.hamburger--elastic.is-active .hamburger-inner::before {
+.nav-open .hamburger--elastic .hamburger-inner::before {
 	-webkit-transition-delay: 0s;
 	     -o-transition-delay: 0s;
 	        transition-delay: 0s;
 	opacity: 0;
 }
 
-.hamburger--elastic.is-active .hamburger-inner::after {
+.nav-open .hamburger--elastic .hamburger-inner::after {
 	-webkit-transform: translate3d(0, -2rem, 0) rotate(-270deg);
 	        transform: translate3d(0, -2rem, 0) rotate(-270deg);
 	-webkit-transition-delay: 0.075s;
 	     -o-transition-delay: 0.075s;
 	        transition-delay: 0.075s;
 }
+
