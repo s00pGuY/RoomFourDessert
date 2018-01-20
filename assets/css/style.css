@@ -188,7 +188,7 @@ nav {
 
 nav ul {
 	margin-top: 6.4rem;
-	transition: transform 0.3s ease-in-out;
+	transition: transform .5s ease-in-out;
 	transform: translateY(-100vh);
 }
 
