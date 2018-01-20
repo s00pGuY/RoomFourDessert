@@ -1,8 +1,8 @@
 <?php 
-include_once("header.php");
 $page_title = 'Menu - Room Four Dessert';
 $page_desc = '';
 $page_keywords = '';
+include_once("header.php");
 ?>
 
 		<main id="content" role="main">
