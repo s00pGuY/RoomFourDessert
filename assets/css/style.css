@@ -238,6 +238,15 @@ footer {
 	margin-bottom: 0.4rem;
 }
 
+.location a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.location a:hover, .location a:focus {
+	text-decoration: none;
+}
+
 .hours span {
 	position: absolute;
 	left: 12rem;
