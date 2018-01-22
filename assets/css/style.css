@@ -224,6 +224,11 @@ nav ul li a {
 	margin-bottom: 0.2rem;
 }
 
+.hours span {
+	position: absolute;
+	left: 12rem;
+}
+
 .copyright {
 	padding: 0.8rem;
 	text-align: center;
