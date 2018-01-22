@@ -224,6 +224,10 @@ nav ul li a {
 	margin-bottom: 0.4rem;
 }
 
+.location p {
+	margin-bottom: 0.4rem;
+}
+
 .hours span {
 	position: absolute;
 	left: 12rem;
