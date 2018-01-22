@@ -215,6 +215,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	height: 55.2rem;
+	width: 100%;
 }
 
 .info > ul {
