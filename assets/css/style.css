@@ -13,7 +13,7 @@ body {
 	position: relative;
 	min-height: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 55.2rem 0;
 	font-family: helvetica, arial, sans-serif;
 	line-height: 1.3;
 	background-color: #090b0c;
@@ -211,6 +211,12 @@ nav ul li a {
 }
 
 /* Footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 55.2rem;
+}
+
 .info > ul {
 	display: flex;
 	flex-flow: column wrap;
@@ -239,4 +245,5 @@ nav ul li a {
 .copyright {
 	padding: 0.8rem;
 	text-align: center;
+	background-color: #111516;
 }
