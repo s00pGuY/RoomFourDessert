@@ -68,10 +68,16 @@ a img {
 	white-space: normal !important;
 }
 
-/* Header */
-header {
+/* Header & Nav */
+header, nav {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 6.4rem;
+}
+
+header {
 	background-color: rgba(9, 11, 12, 0.6);
 }
 
@@ -81,15 +87,6 @@ header {
 	width: 18rem;
 	height: 6.4rem;
 	z-index: 1;
-}
-
-/* Nav */
-nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 6.4rem;
 }
 
 /* Hamburger elastic - https://jonsuh.com/hamburgers/ */
