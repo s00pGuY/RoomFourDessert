@@ -254,3 +254,8 @@ footer {
 	text-align: center;
 	border-top: 0.1rem solid #212121;
 }
+
+/* Main */
+.intro {
+	padding-top: 6.4rem;
+}
