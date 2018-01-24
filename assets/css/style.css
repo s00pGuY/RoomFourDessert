@@ -254,8 +254,13 @@ section {
 
 .intro {
 	padding-top: 6.4rem;
-	position: relative;
 	background-color: rgba(0,0,0,0.6);
+}
+
+.intro, .full-scn {
+	height: 100vh;
+	min-height: 32rem;
+	position: relative;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -275,11 +280,6 @@ section {
 	opacity: 0.6;
 	background: no-repeat scroll center;
 	background-size: cover;
-}
-
-.intro, .full-scn {
-	height: 100vh;
-	min-height: 32rem;
 }
 
 .slogan {
