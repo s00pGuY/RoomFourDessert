@@ -264,7 +264,6 @@ section {
 	display: flex;
     flex-direction: column;
     justify-content: center;
-	align-items: center;
 	background: no-repeat scroll center;
 	background-size: cover;
 }
@@ -284,6 +283,7 @@ section {
 
 .slogan {
 	max-width: 56rem;
+	align-self: center;
 }
 
 .intro p, .intro h1 {
