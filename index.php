@@ -17,12 +17,12 @@ include_once("header.php");
 				<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
 				<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
 				<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
-				<a href="about-us.php">Read more</a>
+				<a href="about-us.php" class="btn">Read more</a>
 			</section>
 			<section class="menus full-scn">
 				<h2>Our menus</h2>
 				<p>It’s easy to decide you want to eat out. It's harder to find somewhere that'll be able to satisfy your cravings. Our menu will keep you coming back for more. Do remember to leave Room Four Dessert though!</p>
-				<a href="menu.php">View Menu</a>
+				<a href="menu.php" class="btn">View Menu</a>
 			</section>
 			<section class="catering full-scn">
 				<h2>Event catering</h2>
