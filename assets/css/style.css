@@ -252,11 +252,7 @@ section {
 	padding: 0.8rem;
 }
 
-.intro {
-	padding-top: 6.4rem;
-}
-
-.intro, .full-scn {
+.full-scn {
 	height: 100vh;
 	min-height: 32rem;
 	position: relative;
@@ -266,7 +262,7 @@ section {
 	background-color: rgba(0,0,0,0.6);
 }
 
-.intro::before, .full-scn::before {
+.full-scn::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -277,6 +273,10 @@ section {
 	opacity: 0.6;
 	background: no-repeat scroll center;
 	background-size: cover;
+}
+
+.intro {
+	padding-top: 6.4rem;
 }
 
 .slogan {
@@ -320,4 +320,9 @@ p {
 	border-color: #69b7c7;
 	background-color: #69b7c7;
 	color: #000;
+}
+
+/* test images */
+.full-scn::before {
+	background-image: url(https://www.roomfourdessert.co.uk/s/cc_images/cache_757914.JPG);
 }
