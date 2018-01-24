@@ -17,6 +17,7 @@ include_once("header.php");
 				<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
 				<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
 				<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
+				<a href="about-us.php">Read more</a>
 			</section>
 			<section class="menus full-scn">
 				<h2>Our menus</h2>
