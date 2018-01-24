@@ -264,8 +264,6 @@ section {
 	display: flex;
     flex-direction: column;
     justify-content: center;
-	background: no-repeat scroll center;
-	background-size: cover;
 }
 
 .intro::before {
