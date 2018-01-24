@@ -261,6 +261,10 @@ footer {
 	padding-top: 6.4rem;
 	position: relative;
 	background-color: rgba(0,0,0,0.6);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
 }
 
 .intro::before {
@@ -278,4 +282,14 @@ footer {
 
 .intro, .full-scn {
 	min-height: 100vh;
+}
+
+.slogan {
+	max-width: 56rem;
+}
+
+.intro p, .intro h1 {
+	display: inline;
+	font-family: "Nunito", helvetica, arial, sans-serif;
+	font-size: 3.6rem;
 }

@@ -7,8 +7,10 @@ include_once("header.php");
 
 		<main id="content" role="main">	
 			<section class="intro home">
-				<p>No matter what you've eaten, there is always </p>
-				<h1>Room Four Dessert</h1>
+				<div class="slogan">
+					<p>No matter what you've eaten, there is always </p>
+					<h1>Room Four Dessert</h1>
+				</div>
 			</section>
 			<section class="about full-scn">
 				<h2>About us</h2>
