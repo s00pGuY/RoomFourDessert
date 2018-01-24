@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro">
+			<section class="intro menu">
 				<h1>Menu</h1>
 			</section>
 		</main>

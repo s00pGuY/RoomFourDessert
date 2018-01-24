@@ -6,10 +6,10 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro">
+			<section class="intro gallery">
 				<h1>Gallery</h1>
 			</section>
-			<section class="gallery">
+			<section class="images">
 				<?php 
 				$dir = "assets/images/gallery/";
 				$imgs = glob($dir . "*.{jpg,gif,png,jpeg}", GLOB_BRACE);
