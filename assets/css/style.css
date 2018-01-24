@@ -227,11 +227,6 @@ footer {
 	padding: 0.4rem 0;
 }
 
-.info h2 {
-	font-size: 2.4rem;
-	margin-bottom: 0.4rem;
-}
-
 .location p {
 	margin-bottom: 0.4rem;
 }
@@ -257,6 +252,10 @@ footer {
 }
 
 /* Main */
+section {
+	padding: 0.8rem;
+}
+
 .intro {
 	padding-top: 6.4rem;
 	position: relative;
@@ -293,4 +292,10 @@ footer {
 	display: inline;
 	font-family: "Nunito", helvetica, arial, sans-serif;
 	font-size: 3.6rem;
+}
+
+h2 {
+	font-family: "Nunito", helvetica, arial, sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem auto 0.6rem auto;
 }
