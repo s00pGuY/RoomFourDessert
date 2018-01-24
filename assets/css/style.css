@@ -259,3 +259,7 @@ footer {
 .intro {
 	padding-top: 6.4rem;
 }
+
+.intro, .full-scn {
+	min-height: 100vh;
+}
