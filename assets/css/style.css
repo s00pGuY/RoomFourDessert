@@ -227,10 +227,6 @@ footer {
 	padding: 0.4rem 0;
 }
 
-.location p {
-	margin-bottom: 0.4rem;
-}
-
 .location a {
 	color: #ccc;
 	text-decoration: underline;
@@ -265,6 +261,8 @@ section {
     flex-direction: column;
     justify-content: center;
 	align-items: center;
+	background: no-repeat scroll center;
+	background-size: cover;
 }
 
 .intro::before {
@@ -298,4 +296,8 @@ h2 {
 	font-family: "Nunito", helvetica, arial, sans-serif;
 	font-size: 2.8rem;
 	margin: 1rem auto 0.6rem auto;
+}
+
+p {
+	margin-bottom: 0.6rem;
 }
