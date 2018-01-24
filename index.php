@@ -7,7 +7,7 @@ include_once("header.php");
 
 		<main id="content" role="main">	
 			<section class="intro home">
-				<p>No matter what you've eaten, there is always</p>
+				<p>No matter what you've eaten, there is always </p>
 				<h1>Room Four Dessert</h1>
 			</section>
 			<section class="about full-scn">
