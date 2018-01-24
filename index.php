@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">	
-			<section class="intro home">
+			<section class="intro home full-scn">
 				<div class="slogan flex-wrapper">
 					<p>No matter what you've eaten, there is always </p>
 					<h1>Room Four Dessert</h1>
