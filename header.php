@@ -10,6 +10,7 @@
 		<script src="assets/js/html5shiv.min.js"></script>
 	<![endif]-->
 	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300&7cLato" rel="stylesheet">
 	<link rel="stylesheet" media="screen" href="assets/css/style.css"> 
 </head>
 
