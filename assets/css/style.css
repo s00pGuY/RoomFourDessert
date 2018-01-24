@@ -301,3 +301,21 @@ h2 {
 p {
 	margin-bottom: 0.6rem;
 }
+
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: 1rem 1.5rem;;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #fff;
+	border: 0.2rem solid #fff;
+	transition: all .3s ease;
+}
+
+.btn:hover, .btn:focus {
+	border-color: #69b7c7;
+	background-color: #69b7c7;
+	color: #000;
+}
