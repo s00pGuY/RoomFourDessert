@@ -254,7 +254,6 @@ section {
 
 .intro {
 	padding-top: 6.4rem;
-	background-color: rgba(0,0,0,0.6);
 }
 
 .intro, .full-scn {
@@ -264,9 +263,10 @@ section {
 	display: flex;
     flex-direction: column;
     justify-content: center;
+	background-color: rgba(0,0,0,0.6);
 }
 
-.intro::before {
+.intro::before, .full-scn::before {
 	content: '';
 	position: absolute;
 	left: 0;
