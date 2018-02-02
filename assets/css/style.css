@@ -323,7 +323,27 @@ p {
 	color: #000;
 }
 
+label {
+	display: inline-block;
+	width: 10rem;
+	margin-bottom: 1rem;
+	vertical-align: top;
+}
 
+.formInput {
+    padding: 0.4rem;
+	width: calc(100% - 11rem);
+    font-size: 1.8rem;
+	font-family: "Lato", helvetica, arial, sans-serif;
+	background-color: transparent;
+	color: #fff;
+	border: 0.1rem solid #fff;
+}
+
+textarea.formInput {
+	min-height: 6rem;
+    resize: vertical;
+}
 
 /* test images */
 .full-scn::before {
