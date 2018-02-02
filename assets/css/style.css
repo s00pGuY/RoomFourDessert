@@ -311,6 +311,7 @@ p {
 	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
+	background-color: transparent;
 	color: #fff;
 	border: 0.1rem solid #fff;
 	transition: all .3s ease;
@@ -321,6 +322,8 @@ p {
 	background-color: #69b7c7;
 	color: #000;
 }
+
+
 
 /* test images */
 .full-scn::before {
