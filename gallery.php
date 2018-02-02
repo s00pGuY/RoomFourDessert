@@ -16,7 +16,7 @@ $imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
 $indent = '				'; //Allows readable code when viewing scource
 				
 foreach($imgs as $img) {
-	echo $indent . '<img src="' . $img . '" alt="">
+	echo $indent . '<div class="img-flex"><img src="' . $img . '" alt=""></div>
 ';
 }
 ?>
