@@ -12,7 +12,7 @@ include_once("header.php");
 			<section class="images">
 				<?php 
 				$dir = "assets/images/gallery/";
-				$imgs = glob($dir . "*.{jpg,gif,png,jpeg}", GLOB_BRACE);
+				$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
 				
 				foreach($imgs as $img) {
 					echo '<img src="' . $img . '" alt=""><br>';
