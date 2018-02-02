@@ -70,7 +70,7 @@ a img {
 
 /* Header & Nav */
 header, nav {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -194,6 +194,7 @@ nav ul {
 	margin-top: 6.4rem;
 	transition: transform .5s ease-in-out;
 	transform: translateY(-100vh);
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
 .nav-open ul {
@@ -205,7 +206,7 @@ nav ul li a {
 	padding: 1.2rem;
 	font-size: 2rem;
 	text-align: center;
-	color: #000;
+	color: #fff;
 }
 
 /* Footer */
