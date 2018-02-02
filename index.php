@@ -46,22 +46,22 @@ include_once("header.php");
 					<form action="">
 						<p>
 							<label for="name">Name</label>
-							<input type="text" name="realname" id="name">
+							<input type="text" name="realname" id="name" class="formInput">
 						</p>
 						<p>
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email">
+							<input type="email" name="email" id="email" class="formInput">
 						</p>
 						<p>
 							<label for="phone">Telephone</label>
-							<input type="text" name="subject" id="phone">
+							<input type="text" name="subject" id="phone" class="formInput">
 						</p>
 						<p>
 							<label for="msg">Message</label>
-							<textarea name="message" id="msg"></textarea>
+							<textarea name="message" id="msg" class="formInput"></textarea>
 						</p>
 						<p>
-							<input type="submit" value="Send">
+							<input type="submit" value="Send" class="btn">
 						</p>
 					</form>
 				</div>
