@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro events full-scn">
+			<section class="intro events half-scn">
 				<h1>Event catering</h1>
 			</section>
 			<section class="events-details">
