@@ -10,14 +10,16 @@ include_once("header.php");
 				<h1>Gallery</h1>
 			</section>
 			<section class="images">
-				<?php 
-				$dir = "assets/images/gallery/";
-				$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+<?php 
+$dir = "assets/images/gallery/";
+$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+$indent = '				'; //Allows readable code when viewing scource
 				
-				foreach($imgs as $img) {
-					echo '<img src="' . $img . '" alt=""><br>';
-				}
-				?>
+foreach($imgs as $img) {
+	echo $indent . '<img src="' . $img . '" alt="">
+';
+}
+?>
 			</section>
 		</main>
 
