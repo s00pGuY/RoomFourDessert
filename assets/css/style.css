@@ -253,7 +253,7 @@ section {
 	padding: 0.8rem;
 }
 
-.full-scn {
+.full-scn, .half-scn {
 	height: 100vh;
 	min-height: 32rem;
 	position: relative;
@@ -263,7 +263,7 @@ section {
 	background-color: rgba(0,0,0,0.6);
 }
 
-.full-scn::before {
+.full-scn::before, .half-scn::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -274,6 +274,10 @@ section {
 	opacity: 0.6;
 	background: no-repeat scroll center;
 	background-size: cover;
+}
+
+.half-scn {
+	height: 50vh;
 }
 
 .intro {
@@ -347,6 +351,6 @@ textarea.formInput {
 }
 
 /* test images */
-.full-scn::before {
+.full-scn::before, .half-scn::before {
 	background-image: url(https://www.roomfourdessert.co.uk/s/cc_images/cache_757914.JPG);
 }
