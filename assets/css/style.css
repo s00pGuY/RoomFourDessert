@@ -346,6 +346,25 @@ textarea.formInput {
     resize: vertical;
 }
 
+.images {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.img-flex {
+	width: 100%;
+	height: 40%;
+	overflow: hidden;
+	margin: 0.4rem auto;
+}
+
+.img-flex img {
+	width: 100%;
+	height: auto;
+}
+
 /* test images */
 .full-scn::before, .half-scn::before {
 	background-image: url(https://www.roomfourdessert.co.uk/s/cc_images/cache_757914.JPG);
