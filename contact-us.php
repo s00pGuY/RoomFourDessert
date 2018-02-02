@@ -9,6 +9,10 @@ include_once("header.php");
 			<section class="intro contact-us full-scn">
 				<h1>Contact us</h1>
 			</section>
+			<section class="find-us">
+				<h2>Find us</h2>
+				<!-- Interactive Map of location -->
+			</section>
 			<section class="contact-form">
 				<h2>Send us a message</h2>
 				<form action="">
@@ -32,10 +36,6 @@ include_once("header.php");
 						<input type="submit" value="Send" class="btn">
 					</p>
 				</form>
-			</section>
-			<section class="find-us">
-				<h2>Find us</h2>
-				<!-- Interactive Map of location -->
 			</section>
 		</main>
 
