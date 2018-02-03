@@ -17,7 +17,7 @@ include_once("header.php");
 				<p>We offer a bespoke dessert table service, providing you with an elegant display to wow your guests.</p>
 				<p>Alternatively we can provide the desserts for you to serve your guests yourself. However you proceed, we will ensure you enjoy the experience as much as your guests.</p>
 				<p>If you would like someone to get in touch with you about an event you'd like catering for, please click on the events button below to send us an email and someone from our events team will contact you as soon as possible.</p>
-				<a href="mailto:events@roomfourdessert.co.uk">Contact us</a>
+				<a href="mailto:events@roomfourdessert.co.uk" class="btn">Email us</a>
 			</section>
 			<section class="showcase">
 				<h2>Events</h2>
