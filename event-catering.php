@@ -21,7 +21,16 @@ include_once("header.php");
 			</section>
 			<section class="showcase">
 				<h2>Events</h2>
-				<!-- Image showcase -->
+<?php 
+$dir = "assets/images/events/";
+$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+$indent = '				'; //Allows readable code when viewing scource
+				
+foreach($imgs as $img) {
+	echo $indent . '<div class="img-flex"><img src="' . $img . '" alt=""></div>
+';
+}
+?>
 			</section>
 		</main>
 
