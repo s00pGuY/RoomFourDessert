@@ -233,7 +233,7 @@ footer {
 	text-decoration: underline;
 }
 
-.location a:hover, .location a:focus {
+.location a:hover, .location a:focus, .disclaimer a:hover, .disclaimer a:focus {
 	text-decoration: none;
 }
 
@@ -248,9 +248,14 @@ footer {
 	border-top: 0.1rem solid #212121;
 }
 
+.disclaimer a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
 .copyright {
 	display: inline-block;
-	margin-top: 0.8rem;
+	margin-top: 0.6rem;
 }
 
 .copyright p {
