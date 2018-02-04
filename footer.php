@@ -33,8 +33,12 @@
 					</li>
 				</ul>
 			</div>
-			<div class="copyright">
-				<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
+			<div class="disclaimer">
+				<p>Developed by <a href="http://www.umeshpatel.co.uk">Umesh Patel</a></p>
+				<span class="copyright">
+					<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. </p>
+					<p>All rights reserved.</p>
+				</span>
 			</div>
 		</footer>
 	</div>
