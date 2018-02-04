@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro gallery half-scn">
+			<section class="intro img-gallery half-scn">
 				<h1>Gallery</h1>
 			</section>
 			<section class="images">
