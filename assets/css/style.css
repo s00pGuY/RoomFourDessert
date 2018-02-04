@@ -193,12 +193,12 @@ header {
 nav ul {
 	margin-top: 6.4rem;
 	transition: transform .5s ease-in-out;
-	transform: translateY(-100vh);
+	transform: translateX(-100vw);
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
 .nav-open ul {
-	transform: translateY(0);
+	transform: translateX(0);
 }
 
 nav ul li a {
