@@ -13,7 +13,7 @@ body {
 	position: relative;
 	min-height: 100%;
 	margin: 0;
-	padding: 0 0 68rem 0; /* footer height */
+	padding: 0 0 65rem 0; /* footer height */
 	font-family: "Lato", helvetica, arial, sans-serif;
 	line-height: 1.3;
 	background-color: #090b0c;
@@ -213,7 +213,7 @@ nav ul li a {
 footer {
 	position: absolute;
 	bottom: 0;
-	height: 68rem;
+	height: 65rem;
 	width: 100%;
 }
 
