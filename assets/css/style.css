@@ -370,10 +370,6 @@ textarea.formInput {
 }
 
 /* Temp BG images */
-.full-scn::before, .half-scn::before {
-	background-image: url(https://www.roomfourdessert.co.uk/s/cc_images/cache_757914.JPG);
-}
-
 .home::before {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
 }
@@ -397,32 +393,3 @@ textarea.formInput {
 .contact::before {
 	background-image: url(../images/bg-images/teaserbox_100256.jpg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
