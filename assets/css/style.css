@@ -369,7 +369,60 @@ textarea.formInput {
 	height: auto;
 }
 
-/* test images */
+/* Temp BG images */
 .full-scn::before, .half-scn::before {
 	background-image: url(https://www.roomfourdessert.co.uk/s/cc_images/cache_757914.JPG);
 }
+
+.home::before {
+	background-image: url(../images/bg-images/teaserbox_757914.jpg);
+}
+
+.about::before {
+	background-image: url(../images/bg-images/teaserbox_100257.jpg);
+}
+
+.menus::before {
+	background-image: url(../images/bg-images/teaserbox_100210.jpg);
+}
+
+.catering::before {
+	background-image: url(../images/bg-images/teaserbox_100211.jpg);
+}
+
+.img-gallery::before {
+	background-image: url(../images/bg-images/teaserbox_757915.jpg);
+}
+
+.contact::before {
+	background-image: url(../images/bg-images/teaserbox_100256.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
