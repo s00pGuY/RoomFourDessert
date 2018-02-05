@@ -264,7 +264,7 @@ footer {
 
 /* Main */
 section {
-	padding: 0.8rem;
+	padding: 4.8rem 0.8rem;
 }
 
 .full-scn, .half-scn {
@@ -406,12 +406,8 @@ textarea.formInput {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
 }
 
-.menus::before {
+.food::before {
 	background-image: url(../images/bg-images/teaserbox_100210.jpg);
-}
-
-.catering::before {
-	background-image: url(../images/bg-images/teaserbox_100211.jpg);
 }
 
 .img-gallery::before {
