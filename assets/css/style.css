@@ -325,9 +325,17 @@ p {
 	margin-bottom: 0.6rem;
 }
 
+.food {
+	min-height: 59rem;
+}
+
+.menu, .catering {
+	margin: 1.6rem 0;
+}
+
 .btn {
 	display: inline-block;
-	margin: 1rem 0;
+	margin: 0.6rem 0;
 	padding: 1rem 1.4rem;
 	font-size: 1.4rem;
 	text-transform: uppercase;
