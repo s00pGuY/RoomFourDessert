@@ -40,7 +40,17 @@ include_once("header.php");
 					<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
 					<a href="gallery.php" class="btn">View gallery</a>
 					<div class="img-showcase">
-						
+<?php 
+$dir = "assets/images/gallery/";
+$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+shuffle($imgs);
+$indent = '						'; //Allows readable code when viewing scource
+
+for($i = 0; $i < 4; $i++) {
+	echo $indent . '<div class="img-flex"><img src="' . $imgs[$i] . '" alt=""></div>
+';
+}
+?>
 					</div>
 				</div>
 			</section>
