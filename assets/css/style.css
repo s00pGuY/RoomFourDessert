@@ -431,8 +431,16 @@ textarea.formInput {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
 }
 
-.food::before {
+.about::before {
+	background-image: url(../images/bg-images/teaserbox_100257.jpg);
+}
+
+.food::before, .menus::before {
 	background-image: url(../images/bg-images/teaserbox_100210.jpg);
+}
+
+.catering::before {
+	background-image: url(../images/bg-images/teaserbox_100211.jpg);
 }
 
 .img-gallery::before {
