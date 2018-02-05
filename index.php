@@ -34,11 +34,14 @@ include_once("header.php");
 					</div>
 				</div>
 			</section>
-			<section class="img-gallery full-scn">
+			<section class="img-gallery">
 				<div class="flex-wrapper">
 					<h2>Gallery</h2>
 					<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
 					<a href="gallery.php" class="btn">View gallery</a>
+					<div class="img-showcase">
+						
+					</div>
 				</div>
 			</section>
 			<section class="contact full-scn">
