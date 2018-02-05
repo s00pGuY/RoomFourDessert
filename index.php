@@ -22,7 +22,7 @@ include_once("header.php");
 			<section class="food full-scn">
 				<div class="flex-wrapper">
 					<h2>Our food</h2>
-					<h3>Visitng us</h3>
+					<h3>Visiting us</h3>
 					<p>It’s easy to decide you want to eat out. It's harder to find somewhere that'll be able to satisfy your cravings. Our menu will keep you coming back for more. Do remember to leave Room Four Dessert though!</p>
 					<a href="menu.php" class="btn">View Menu</a>
 					<h3>Event catering</h3>
