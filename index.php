@@ -22,12 +22,16 @@ include_once("header.php");
 			<section class="food full-scn">
 				<div class="flex-wrapper">
 					<h2>Our food</h2>
-					<h3>Visiting us</h3>
-					<p>It’s easy to decide you want to eat out. It's harder to find somewhere that'll be able to satisfy your cravings. Our menu will keep you coming back for more. Do remember to leave Room Four Dessert though!</p>
-					<a href="menu.php" class="btn">View Menu</a>
-					<h3>Event catering</h3>
-					<p>Let us do the hard work, impress your guests with a stylish and tasty winning combination. Catering fit for any occasion. You can tailor it to however specific your requirments/tastes.</p>
-					<a href="event-catering.php" class="btn">See more</a>
+					<div class="menu">
+						<h3>Visiting us</h3>
+						<p>It’s easy to decide you want to eat out. It's harder to find somewhere that'll be able to satisfy your cravings. Our menu will keep you coming back for more. Do remember to leave Room Four Dessert though!</p>
+						<a href="menu.php" class="btn">View Menu</a>
+					</div>
+					<div class="catering">
+						<h3>Event catering</h3>
+						<p>Let us do the hard work, impress your guests with a stylish and tasty winning combination. Catering fit for any occasion. You can tailor it to however specific your requirments/tastes.</p>
+						<a href="event-catering.php" class="btn">See more</a>
+					</div>
 				</div>
 			</section>
 			<section class="img-gallery full-scn">
