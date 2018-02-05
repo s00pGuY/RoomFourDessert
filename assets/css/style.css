@@ -315,13 +315,19 @@ h2 {
 	margin-bottom: 0.6rem;
 }
 
+h3 {
+	font-family: "Nunito", helvetica, arial, sans-serif;
+	font-size: 2.2rem;
+	margin-bottom: 0.3rem;
+}
+
 p {
 	margin-bottom: 0.6rem;
 }
 
 .btn {
 	display: inline-block;
-	margin-top: 1rem;
+	margin: 1rem 0;
 	padding: 1rem 1.4rem;
 	font-size: 1.4rem;
 	text-transform: uppercase;
