@@ -15,7 +15,7 @@ include_once("header.php");
 			</section>
 			<section class="contact-form">
 				<h2>Send us a message</h2>
-				<form action="">
+				<form action="#">
 					<p>
 						<label for="name">Name</label>
 						<input type="text" name="realname" id="name" class="formInput">

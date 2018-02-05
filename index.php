@@ -57,7 +57,7 @@ for($i = 0; $i < 4; $i++) {
 			<section class="contact full-scn">
 				<div class="flex-wrapper">
 					<h2>Contact Us</h2>
-					<form action="">
+					<form action="#">
 						<p>
 							<label for="name">Name</label>
 							<input type="text" name="realname" id="name" class="formInput">
