@@ -319,10 +319,6 @@ p {
 	margin-bottom: 0.6rem;
 }
 
-.about {
-	min-height: 48rem;
-}
-
 .btn {
 	display: inline-block;
 	margin-top: 1rem;
@@ -408,10 +404,6 @@ textarea.formInput {
 /* Temp BG images */
 .home::before {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
-}
-
-.about::before {
-	background-image: url(../images/bg-images/teaserbox_100257.jpg);
 }
 
 .menus::before {

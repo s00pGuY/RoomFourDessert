@@ -12,13 +12,11 @@ include_once("header.php");
 					<h1>Room Four Dessert</h1>
 				</div>
 			</section>
-			<section class="about full-scn">
-				<div class="flex-wrapper">
-					<h2>About us</h2>
-					<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
-					<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
-					<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
-				</div>
+			<section class="about">
+				<h2>About us</h2>
+				<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
+				<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
+				<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
 			</section>
 			<section class="menus full-scn">
 				<div class="flex-wrapper">
