@@ -219,9 +219,10 @@ footer {
 
 .info > ul {
 	display: flex;
-	flex-flow: column wrap;
-	width: 100%;
+	flex-flow: row wrap;
+	width: 30rem;
 	padding: 0.8rem;
+	margin: 0 auto;
 }
 
 .info > ul > li {
@@ -235,6 +236,10 @@ footer {
 
 .location a:hover, .location a:focus, .disclaimer a:hover, .disclaimer a:focus {
 	text-decoration: none;
+}
+
+.hours li {
+	position: relative;
 }
 
 .hours span {
