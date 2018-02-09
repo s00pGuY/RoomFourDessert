@@ -242,6 +242,21 @@ footer {
 	left: 12rem;
 }
 
+.social a {
+	display: block;
+	color: #ccc;
+	margin: 0.4rem 0;
+}
+
+.social img {
+	vertical-align: middle;
+}
+
+.social a span {
+	padding: 0.7rem;
+	display: inline-block;
+}
+
 .disclaimer {
 	padding: 1.6rem 0.8rem;
 	text-align: center;
