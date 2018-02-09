@@ -474,3 +474,9 @@ textarea.formInput {
 .contact::before {
 	background-image: url(../images/bg-images/teaserbox_100256.jpg);
 }
+
+@media (min-width: 500px) {
+	.copyright p {
+		display: inline;
+	}
+}
