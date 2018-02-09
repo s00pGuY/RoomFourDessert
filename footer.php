@@ -3,6 +3,10 @@
 				<ul>
 					<li class="location">
 						<h2>Find us</h2>
+						<a href="https://www.google.com/maps/search/?api=1&query=Room%20Four%20Dessert,%20Bolton" class="location-pin">
+							<img src="assets/images/location.svg" width="28" height="28" alt="">
+							<span>Google maps</span>
+						</a>
 						<p>Room Four Dessert<br>114 Deane Road<br>Bolton<br>BL3 5DL</p>
 						<p>Phone: <a href="tel:+441204214257">+44 1204 214257</a></p>
 						<p>Email: <a href="mailto:info@roomfourdessert.co.uk">info@roomfourdessert.co.uk</a></p>

@@ -247,13 +247,14 @@ footer {
 	left: 12rem;
 }
 
-.social a {
+.social a, a.location-pin {
 	display: block;
 	color: #ccc;
 	margin: 0.4rem 0;
+	text-decoration: none;
 }
 
-.social img {
+.social img, .location-pin img {
 	vertical-align: middle;
 }
 
