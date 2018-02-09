@@ -494,3 +494,21 @@ textarea.formInput {
 		display: inline;
 	}
 }
+
+@media (min-width: 590px) {
+	body {
+		padding-bottom: 53.6rem;
+	}
+	
+	footer {
+		height: 53.6rem;
+	}
+	
+	.info > ul {
+		width: 57rem;
+	}
+	
+	.info > ul > li {
+		margin: 0 auto;
+	}
+}
