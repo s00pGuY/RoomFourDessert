@@ -512,3 +512,17 @@ textarea.formInput {
 		margin: 0 auto;
 	}
 }
+
+@media (min-width: 828px) {
+	body {
+		padding-bottom: 36rem;
+	}
+	
+	footer {
+		height: 36rem;
+	}
+	
+	.info > ul {
+		width: 81rem;
+	}
+}
