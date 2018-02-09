@@ -313,6 +313,10 @@ section {
 	padding-top: 6.4rem;
 }
 
+.home {
+	height: 85vh;
+}
+
 .slogan {
 	max-width: 56rem;
 	align-self: center;
