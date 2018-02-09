@@ -382,7 +382,7 @@ p {
 	height: 100%;
 }
 
-label {
+label, .contact .btn {
 	display: inline-block;
 	width: 10rem;
 	margin-bottom: 1rem;
