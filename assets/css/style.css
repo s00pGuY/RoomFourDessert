@@ -344,6 +344,11 @@ p {
 	margin-bottom: 0.6rem;
 }
 
+.about img {
+	display: block;
+	margin: 0 auto;
+}
+
 .food {
 	min-height: 59rem;
 }
