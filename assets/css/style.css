@@ -566,3 +566,13 @@ textarea.formInput {
 		right: calc((100vw - 96rem) / 2);
 	}
 }
+
+@media (min-width: 1200px) {
+	.logo {
+		left: calc((100vw - 120rem) / 2);
+	}
+	
+	nav ul {
+		right: calc((100vw - 120rem) / 2);
+	}
+}
