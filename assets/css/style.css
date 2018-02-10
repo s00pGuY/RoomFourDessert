@@ -229,6 +229,10 @@ footer {
 	padding: 0.4rem 0;
 }
 
+.location p {
+	line-height: 1.4;
+}
+
 .location a {
 	color: #ccc;
 	text-decoration: underline;
