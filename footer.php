@@ -23,6 +23,12 @@
 							<li><p>Sunday 	<span>10:00 - 23:00</span></p></li>
 						</ul>
 					</li>
+					<li class="awards">
+						<h2>Recent awards</h2>
+						<a href="https://www.thebestof.co.uk/local/bolton/business-guide/feature/room-four-dessert/">
+							<img src="assets/images/tbo-award.png" width="150" height="150" alt="">
+						</a>
+					</li>
 					<li class="social">
 						<h2>Get social with us</h2>
 						<a href="https://www.facebook.com/roomfourdessert">
