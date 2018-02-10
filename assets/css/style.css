@@ -525,11 +525,13 @@ textarea.formInput {
 	}
 	
 	.copyright {
+		position: relative;
 		float: left;
 		margin: 0 0 0 1rem;
 	}
 	
 	.disclaimer > p {
+		position: relative;
 		float: right;
 		height: 3.2rem;
 		margin-right: 1rem;
@@ -546,6 +548,21 @@ textarea.formInput {
 	}
 	
 	.info > ul {
-		width: 81rem;
+		width: auto;
+		max-width: 96rem;
+	}
+}
+
+@media (min-width: 976px) {
+	.copyright {
+		position: relative;
+		margin: 0;
+		left: calc((100vw - 96rem) / 2);
+	}
+	
+	.disclaimer > p {
+		position: relative;
+		margin: 0;
+		right: calc((100vw - 96rem) / 2);
 	}
 }
