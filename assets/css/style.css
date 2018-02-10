@@ -496,6 +496,10 @@ textarea.formInput {
 }
 
 @media (min-width: 750px) {
+	body {
+		padding-bottom: 50rem;
+	}
+	
 	.hamburger {
 		display: none;
 	}
@@ -516,6 +520,10 @@ textarea.formInput {
 		padding: 1.9rem 1.2rem;
 	}
 	
+	footer {
+		height: 50rem;
+	}
+	
 	.copyright {
 		float: left;
 		margin: 0;
@@ -529,11 +537,11 @@ textarea.formInput {
 
 @media (min-width: 828px) {
 	body {
-		padding-bottom: 36rem;
+		padding-bottom: 32.4rem;
 	}
 	
 	footer {
-		height: 36rem;
+		height: 32.4rem;
 	}
 	
 	.info > ul {
