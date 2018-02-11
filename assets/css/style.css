@@ -524,6 +524,10 @@ textarea.formInput {
 		height: 57rem;
 	}
 	
+	.disclaimer {
+		height: 5.4rem;
+	}
+	
 	.disclaimer p:first-child {
 		text-align: left;
 		margin-left: 0.8rem;
