@@ -1,6 +1,6 @@
 		<footer role="contentinfo">
 			<div class="info">
-				<ul>
+				<ul class="flex">
 					<li class="location">
 						<h2>Find us</h2>
 						<a href="https://www.google.com/maps/search/?api=1&query=Room%20Four%20Dessert,%20Bolton" class="location-pin">
