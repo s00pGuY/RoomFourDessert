@@ -47,7 +47,7 @@
 				</ul>
 			</div>
 			<div class="disclaimer">
-				<div class="section-wrapper">
+				<div class="wrapper">
 					<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
 					<p>Developed by <a href="http://www.umeshpatel.co.uk">Umesh Patel</a></p>
 				</div>

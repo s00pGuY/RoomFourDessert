@@ -80,7 +80,7 @@ nav {
 	position: relative;
 }
 
-header .section-wrapper {
+header .wrapper {
 	height: 6.4rem;
 }
 
@@ -285,7 +285,7 @@ footer {
 	text-decoration: underline;
 }
 
-.disclaimer .section-wrapper {
+.disclaimer .wrapper {
 	max-width: 32rem;
 }
 
@@ -294,7 +294,7 @@ section {
 	padding: 4.8rem 0.8rem;
 }
 
-.section-wrapper {
+.wrapper {
 	max-width: 120rem;
 	margin: 0 auto;
 }
@@ -479,7 +479,7 @@ textarea.formInput {
 		height: 103rem;
 	}
 	
-	.disclaimer .section-wrapper {
+	.disclaimer .wrapper {
 		max-width: 120rem;
 		padding: 0 0.8rem;
 	}
