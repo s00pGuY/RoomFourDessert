@@ -309,17 +309,23 @@ section {
 	margin: 0 auto;
 }
 
-.full-scn, .half-scn {
-	height: 100vh;
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.split {
+	margin: 0.8rem auto;
+}
+
+.hero {
 	min-height: 32rem;
 	position: relative;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
 	background-color: rgba(0,0,0,0.6);
 }
 
-.full-scn::before, .half-scn::before {
+.hero::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -332,12 +338,9 @@ section {
 	background-size: cover;
 }
 
-.half-scn {
-	height: 50vh;
-}
-
 .intro {
 	padding-top: 6.4rem;
+	height: 50vh;
 }
 
 .home {
@@ -368,16 +371,6 @@ h3 {
 
 p {
 	margin-bottom: 0.6rem;
-}
-
-.flex {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-}
-
-.split {
-	margin: 0.8rem auto;
 }
 
 .about img {

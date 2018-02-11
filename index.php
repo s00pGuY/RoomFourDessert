@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">	
-			<section class="intro home full-scn">
+			<section class="intro home flex hero">
 				<div class="wrapper slogan">
 					<p>No matter what you've eaten, there is always </p>
 					<h1>Room Four Dessert</h1>
@@ -25,7 +25,7 @@ include_once("header.php");
 					</div>
 				</div>
 			</section>
-			<section class="food full-scn">
+			<section class="food flex hero">
 				<div class="wrapper flex">
 					<div class="split">
 						<h2>Our food</h2>
@@ -62,7 +62,7 @@ for($i = 0; $i < 4; $i++) {
 					</div>
 				</div>
 			</section>
-			<section class="contact full-scn">
+			<section class="contact flex hero">
 				<div class="wrapper">
 					<h2>Contact Us</h2>
 					<form action="#">
