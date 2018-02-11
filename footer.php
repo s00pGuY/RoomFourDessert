@@ -46,11 +46,10 @@
 					</li>
 				</ul>
 			</div>
+			<hr>
 			<div class="disclaimer">
-				<div class="wrapper">
-					<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
-					<p>Developed by <a href="http://www.umeshpatel.co.uk">Umesh Patel</a></p>
-				</div>
+				<p>Copyright&copy; Room Four Dessert <?php echo gmdate("Y"); ?>. All rights reserved.</p>
+				<p>Developed by <a href="http://www.umeshpatel.co.uk">Umesh Patel</a></p>
 			</div>
 		</footer>
 	</div>
