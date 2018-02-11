@@ -14,11 +14,15 @@ include_once("header.php");
 			</section>
 			<section class="about">
 				<div class="wrapper">
-					<h2>About us</h2>
-					<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
-					<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
-					<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
-					<img src="assets/images/bg-images/showbox.png" width="455" height="300" alt="">
+					<div class="split">
+						<h2>About us</h2>
+						<p>Established in 2013, we have secured ourselves firmly on the map as Bolton's premier dessert house.</p>
+						<p>Whet your appetite with our extensive menu and visit us to see what extras are on offer in our evolving display fridge. We can assure you that you will be spoilt for choice.</p>
+						<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
+					</div>
+					<div class="split">
+						<img src="assets/images/bg-images/showbox.png" width="455" height="300" alt="">
+					</div>
 				</div>
 			</section>
 			<section class="food full-scn">

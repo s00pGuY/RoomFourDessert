@@ -346,7 +346,6 @@ section {
 
 .slogan {
 	max-width: 56rem;
-	align-self: center;
 }
 
 .intro p, .intro h1 {
@@ -371,9 +370,18 @@ p {
 	margin-bottom: 0.6rem;
 }
 
+.about .wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.about .split {
+	margin: 0.8rem auto;
+}
+
 .about img {
-	display: block;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .food {
@@ -554,6 +562,10 @@ textarea.formInput {
 	
 	.disclaimer p:last-child {
 		text-align: right;
+	}
+	
+	.about .split {
+		width: 45%;
 	}
 }
 
