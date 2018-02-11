@@ -17,21 +17,25 @@
 <body>
 	<div class="container">
 		<header role="banner">
-			<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
-			<a href="index.php" class="logo"><img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt=""></a>
-			<nav role="navigation" id="nav">
-				<button class="hamburger hamburger--elastic" type="button">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</button>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about-us.php">About</a></li>
-					<li><a href="menu.php">Menu</a></li>
-					<li><a href="event-catering.php">Catering</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="contact-us.php">Contact us</a></li>
-				</ul>
-			</nav>
+			<div class="section-wrapper">
+				<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
+				<a href="index.php" class="logo">
+					<img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt="">
+				</a>
+				<nav role="navigation" id="nav">
+					<button class="hamburger hamburger--elastic" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+					<ul>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="about-us.php">About</a></li>
+						<li><a href="menu.php">Menu</a></li>
+						<li><a href="event-catering.php">Catering</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
+						<li><a href="contact-us.php">Contact us</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
