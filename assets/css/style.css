@@ -370,13 +370,13 @@ p {
 	margin-bottom: 0.6rem;
 }
 
-.about .wrapper {
+.flex {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
 }
 
-.about .split {
+.split {
 	margin: 0.8rem auto;
 }
 
@@ -564,8 +564,17 @@ textarea.formInput {
 		text-align: right;
 	}
 	
-	.about .split {
+	.split {
 		width: 45%;
+	}
+	
+	.food .wrapper::before {
+		content: '';
+		width: 45%;
+		margin: 0 auto;
+		height: 50rem;
+		background: url(../images/bg-images/showbox.png) no-repeat scroll center;
+		background-size: cover;
 	}
 }
 
