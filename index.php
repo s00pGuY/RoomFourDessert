@@ -7,7 +7,7 @@ include_once("header.php");
 
 		<main id="content" role="main">	
 			<section class="intro home full-scn">
-				<div class="slogan flex-wrapper">
+				<div class="slogan wrapper">
 					<p>No matter what you've eaten, there is always </p>
 					<h1>Room Four Dessert</h1>
 				</div>
@@ -20,7 +20,7 @@ include_once("header.php");
 				<img src="assets/images/bg-images/showbox.png" width="455" height="300" alt=""> 
 			</section>
 			<section class="food full-scn">
-				<div class="flex-wrapper">
+				<div class="wrapper">
 					<h2>Our food</h2>
 					<div class="menu">
 						<h3>Our menus</h3>
@@ -35,7 +35,7 @@ include_once("header.php");
 				</div>
 			</section>
 			<section class="img-gallery">
-				<div class="flex-wrapper">
+				<div class="wrapper">
 					<h2>Gallery</h2>
 					<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
 					<a href="gallery.php" class="btn">View gallery</a>
@@ -55,7 +55,7 @@ for($i = 0; $i < 4; $i++) {
 				</div>
 			</section>
 			<section class="contact full-scn">
-				<div class="flex-wrapper">
+				<div class="wrapper">
 					<h2>Contact Us</h2>
 					<form action="#">
 						<p>
