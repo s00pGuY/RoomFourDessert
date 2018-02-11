@@ -474,6 +474,7 @@ textarea.formInput {
 	
 	.disclaimer .section-wrapper {
 		max-width: 120rem;
+		padding: 0 0.8rem;
 	}
 }
 
@@ -530,13 +531,11 @@ textarea.formInput {
 	
 	.disclaimer p:first-child {
 		text-align: left;
-		margin-left: 0.8rem;
 		float: left;
 	}
 	
 	.disclaimer p:last-child {
 		text-align: right;
-		margin-right: 0.8rem;
 	}
 }
 
