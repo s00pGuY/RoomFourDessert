@@ -551,6 +551,14 @@ textarea.formInput {
 		height: 32.4rem;
 	}
 	
+	.slogan {
+		max-width: 61rem;
+	}
+	
+	.intro p, .intro h1 {
+		font-size: 6rem;
+	}
+	
 	.info > ul {
 		width: auto;
 		max-width: 120rem;
