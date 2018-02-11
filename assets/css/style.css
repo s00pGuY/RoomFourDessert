@@ -282,13 +282,9 @@ footer {
 	text-decoration: underline;
 }
 
-.copyright {
-	display: inline-block;
-	margin-top: 0.6rem;
-}
-
-.copyright p {
-	margin-bottom: 0;
+.disclaimer .section-wrapper {
+	max-width: 32rem;
+	margin: 0 auto;
 }
 
 /* Main */
@@ -476,8 +472,8 @@ textarea.formInput {
 		height: 103rem;
 	}
 	
-	.copyright p {
-		display: inline;
+	.disclaimer .section-wrapper {
+		max-width: 120rem;
 	}
 }
 
@@ -528,17 +524,15 @@ textarea.formInput {
 		height: 57rem;
 	}
 	
-	.copyright {
-		position: relative;
+	.disclaimer p:first-child {
+		text-align: left;
+		margin-left: 0.8rem;
 		float: left;
-		margin: 0 0 0 1rem;
 	}
 	
-	.disclaimer > p {
-		position: relative;
-		float: right;
-		height: 3.2rem;
-		margin-right: 1rem;
+	.disclaimer p:last-child {
+		text-align: right;
+		margin-right: 0.8rem;
 	}
 }
 
@@ -566,16 +560,11 @@ textarea.formInput {
 }
 
 @media (min-width: 1200px) {
-	.logo, .copyright {
+	.logo {
 		left: calc((100vw - 120rem) / 2);
 	}
 	
-	nav ul, .disclaimer > p {
+	nav ul {
 		right: calc((100vw - 120rem) / 2);
-	}
-	
-	.copyright, .disclaimer > p {
-		position: relative;
-		margin: 0;
 	}
 }
