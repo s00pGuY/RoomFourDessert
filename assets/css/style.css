@@ -76,7 +76,7 @@ header {
 	z-index: 99;
 }
 
-nav {
+nav, .hours li {
 	position: relative;
 }
 
@@ -220,33 +220,20 @@ footer {
 	width: 100%;
 }
 
-.info > ul {
-	display: flex;
-	flex-flow: row wrap;
+.info .flex {
+	align-items: flex-start;
 	width: 30rem;
 	padding: 0.8rem;
 	margin: 0 auto;
 }
 
-.info > ul > li {
-	padding: 0.4rem 0;
-}
-
-.location p {
-	line-height: 1.4;
-}
-
-.location a {
+.location a, .disclaimer a {
 	color: #ccc;
 	text-decoration: underline;
 }
 
 .location a:hover, .location a:focus, .disclaimer a:hover, .disclaimer a:focus {
 	text-decoration: none;
-}
-
-.hours li {
-	position: relative;
 }
 
 .hours span {
@@ -292,11 +279,6 @@ footer hr {
 	margin: 0;
 }
 
-.disclaimer a {
-	color: #ccc;
-	text-decoration: underline;
-}
-
 /* Main */
 section {
 	padding: 4.8rem 0.8rem;
@@ -313,9 +295,10 @@ section {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	justify-content: center;
 }
 
-.split {
+.split, .showcase {
 	margin: 0.8rem auto;
 }
 
@@ -347,42 +330,37 @@ section {
 	height: 85vh;
 }
 
-.slogan {
+.home .wrapper {
 	max-width: 56rem;
 }
 
-.intro p, .intro h1 {
+.intro p, .intro h1, h2, h3 {
 	display: inline;
 	font-family: "Nunito", helvetica, arial, sans-serif;
 	font-size: 3.6rem;
+	margin: 0.4rem 0;
 }
 
 h2 {
-	font-family: "Nunito", helvetica, arial, sans-serif;
+	display: block;
 	font-size: 2.8rem;
-	margin-bottom: 0.6rem;
 }
 
 h3 {
-	font-family: "Nunito", helvetica, arial, sans-serif;
+	display: block;
 	font-size: 2.2rem;
-	margin-bottom: 0.3rem;
 }
 
 p {
-	margin-bottom: 0.6rem;
+	margin: 0.6rem 0;
 }
 
 .about img {
 	width: 100%;
 }
 
-.food {
-	min-height: 59rem;
-}
-
 .menu, .catering {
-	margin: 1.6rem 0;
+	margin-bottom: 2rem;
 }
 
 .btn {
@@ -404,14 +382,7 @@ p {
 	color: #000;
 }
 
-.img-showcase, .images {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 0.6rem auto;
-}
-
-.img-flex {
+.img-wrapper {
 	position: relative;
 	width: 100%;
 	height: 40%;
@@ -419,14 +390,14 @@ p {
 	margin: 0.4rem auto;
 }
 
-.img-showcase .img-flex {
+.showcase .img-wrapper {
 	display: block;
 	width: 44vw;
 	height: 44vw;
 	margin: 0;
 }
 
-.img-showcase .img-flex img {
+.showcase .img-wrapper img {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -504,7 +475,7 @@ textarea.formInput {
 		height: 60rem;
 	}
 	
-	.info > ul {
+	.info .flex {
 		width: 57rem;
 	}
 	
@@ -580,7 +551,7 @@ textarea.formInput {
 		height: 32.4rem;
 	}
 	
-	.slogan {
+	.home .wrapper {
 		max-width: 61rem;
 	}
 	
@@ -588,12 +559,8 @@ textarea.formInput {
 		font-size: 6rem;
 	}
 	
-	.info > ul {
+	.info .flex, .info .flex > li {
 		width: auto;
 		max-width: 120rem;
-	}
-	
-	.info > ul > li {
-		width: auto;
 	}
 }
