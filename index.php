@@ -7,7 +7,7 @@ include_once("header.php");
 
 		<main id="content" role="main">	
 			<section class="intro home flex hero">
-				<div class="wrapper slogan">
+				<div class="wrapper">
 					<p>No matter what you've eaten, there is always </p>
 					<h1>Room Four Dessert</h1>
 				</div>
@@ -47,7 +47,7 @@ include_once("header.php");
 					<h2>Gallery</h2>
 					<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
 					<a href="gallery.php" class="btn">View gallery</a>
-					<div class="img-showcase">
+					<div class="showcase flex">
 <?php 
 $dir = "assets/images/gallery/";
 $imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
@@ -55,7 +55,7 @@ shuffle($imgs);
 $indent = '						'; //Allows readable code when viewing scource
 
 for($i = 0; $i < 4; $i++) {
-	echo $indent . '<div class="img-flex"><img src="' . $imgs[$i] . '" alt=""></div>
+	echo $indent . '<div class="img-wrapper"><img src="' . $imgs[$i] . '" alt=""></div>
 ';
 }
 ?>
