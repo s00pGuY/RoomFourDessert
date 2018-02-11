@@ -498,7 +498,13 @@ textarea.formInput {
 		width: 57rem;
 	}
 	
-	.info > ul > li {
+	.location, .awards {
+		width: 27.5rem;
+		margin: 0 auto;
+	}
+	
+	.hours, .social {
+		width: 24rem;
 		margin: 0 auto;
 	}
 }
@@ -566,5 +572,9 @@ textarea.formInput {
 	.info > ul {
 		width: auto;
 		max-width: 120rem;
+	}
+	
+	.info > ul > li {
+		width: auto;
 	}
 }
