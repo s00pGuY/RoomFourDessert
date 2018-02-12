@@ -15,7 +15,8 @@ if (findMenu.length > 0) {
 }
 
 function addEvent(num) {
-	document.getElementById('menu' + num).addEventListener('click', function() {
-		console.log(num);
+	var current = document.getElementById('menu' + num);
+	current.addEventListener('click', function() {
+		document.getElementById('menu-img').src = 'assets/images/menu/' + current.name + '.jpeg';
 	});
 }
