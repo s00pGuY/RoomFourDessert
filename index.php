@@ -51,17 +51,17 @@ include_once("header.php");
 					</div>
 					<div class="split flex">
 					<!-- recommended image aspect ratio - 16:9 -->
-<?php 
-$dir = "assets/images/gallery/";
-$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
-shuffle($imgs);
-$indent = '						'; //Allows readable code when viewing scource
+						<?php
+							$dir = "assets/images/gallery/";
+							$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+							shuffle($imgs);
 
-for($i = 0; $i < 4; $i++) {
-	echo $indent . '<div class="img-wrapper flex"><img src="' . $imgs[$i] . '" alt=""></div>
-';
-}
-?>
+							for($i = 0; $i < 4; $i++) {
+								list($width, $height) = getimagesize($imgs[$i]);
+								echo '<div class="img-wrapper flex"><img src="' . $imgs[$i] . '" width="' . $width . '" height="' . $height . '" alt=""></div>
+							';
+							}
+						?>
 					</div>
 				</div>
 			</section>
