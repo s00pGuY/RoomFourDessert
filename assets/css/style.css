@@ -221,10 +221,11 @@ footer {
 }
 
 .info .flex {
-	align-items: flex-start;
 	width: 30rem;
 	padding: 0.8rem;
 	margin: 0 auto;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 .location a, .disclaimer a {
