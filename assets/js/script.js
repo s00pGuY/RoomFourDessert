@@ -4,8 +4,11 @@ document.querySelector(".hamburger").addEventListener("click", function() {
 
 var findMenu = document.getElementsByClassName("sel-menu");
 
+//Prevents executing on pages without the sel-menu class
 if (findMenu.length > 0) {
 	var btn = findMenu[0].querySelectorAll(".btn");
+	
+	//ES5 version of ES6 'let' statement
 	for (var i = 0; i < btn.length; i++) {
 		addEvent(i);
 	}
