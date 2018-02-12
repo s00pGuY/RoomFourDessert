@@ -526,6 +526,7 @@ textarea.formInput {
 	.disclaimer p:first-child {
 		text-align: left;
 		float: left;
+		margin: 0;
 	}
 	
 	.disclaimer p:last-child {
