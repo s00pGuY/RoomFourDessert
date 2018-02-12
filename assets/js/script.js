@@ -2,10 +2,13 @@ document.querySelector(".hamburger").addEventListener("click", function() {
 	document.getElementById("nav").classList.toggle("nav-open");
 });
 
-var btn = document.getElementsByClassName("sel-menu")[0].querySelectorAll(".btn");
+var findMenu = document.getElementsByClassName("sel-menu");
 
-for (var i = 0; i < btn.length; i++) {
-	addEvent(i);
+if (findMenu.length > 0) {
+	var btn = findMenu[0].querySelectorAll(".btn");
+	for (var i = 0; i < btn.length; i++) {
+		addEvent(i);
+	}
 }
 
 function addEvent(num) {
