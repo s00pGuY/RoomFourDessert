@@ -29,7 +29,7 @@ include_once("header.php");
 						<button class="btn" id="menu6" name="hot-drinks">Hot Drinks</button>
 					</div>
 					<div class="split">
-						<!-- Menu -->
+						<img src="assets/images/menu/desserts.jpeg" id="menu-img" width="738" height="1044">
 					</div>
 				</div>
 			</section>
