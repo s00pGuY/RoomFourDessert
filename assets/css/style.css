@@ -326,6 +326,10 @@ section {
 	height: 50vh;
 }
 
+.intro .wrapper {
+	width: auto;
+}
+
 .home {
 	height: 85vh;
 }
@@ -359,7 +363,7 @@ p {
 	width: 100%;
 }
 
-.menu, .catering {
+.food .split div {
 	margin-bottom: 2rem;
 }
 

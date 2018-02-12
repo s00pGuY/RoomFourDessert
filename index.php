@@ -34,6 +34,11 @@ include_once("header.php");
 							<p>It’s easy to decide you want to eat out. It's harder to find somewhere that'll be able to satisfy your cravings. Our menu will keep you coming back for more. Do remember to leave Room Four Dessert though!</p>
 							<a href="menu.php" class="btn">View Menu</a>
 						</div>
+						<div class="movenpick">
+							<h3>Movenpick ice cream</h3>
+							<p>We are proud to be official stockists of this luxury gourmet ice cream which is a multiple recipient of the "Cool Brands Award".</p>
+							<p>We serve only Movenpick with all of our desserts, guaranteeing you the very best quality ice cream with every indulgent Room Four Dessert moment</p>
+						</div>
 						<div class="catering">
 							<h3>Event catering</h3>
 							<p>Let us do the hard work, impress your guests with a stylish and tasty winning combination. Catering fit for any occasion. You can tailor it to however specific your requirments/tastes.</p>
