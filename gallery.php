@@ -6,20 +6,36 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro img-gallery half-scn">
-				<h1>Gallery</h1>
+			<section class="intro img-gallery flex hero">
+				<div class="wrapper">
+					<h1>Gallery</h1>
+				</div>
 			</section>
-			<section class="images">
-<?php 
-$dir = "assets/images/gallery/";
-$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
-$indent = '				'; //Allows readable code when viewing scource
-				
-foreach($imgs as $img) {
-	echo $indent . '<div class="img-flex"><img src="' . $img . '" alt=""></div>
-';
-}
-?>
+			<section class="pdf-menu">
+				<div class="wrapper flex">
+					<div class="split">
+						<h2>Send us pictures</h2>
+						<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
+					</div>
+					<div class="split">
+						<!-- Featured picture of the month -->
+					</div>
+				</div>
+			</section>
+			<section class="showcase hero">
+				<div class="wrapper">
+					<?php
+						$dir = "assets/images/gallery/";
+						$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+						shuffle($imgs);
+
+						foreach($imgs as $img) {
+							list($width, $height) = getimagesize($img);
+							echo '<div class="img-wrapper flex"><img src="' . $img . '" width="' . $width . '" height="' . $height . '" alt=""></div>
+						';
+						}
+					?>
+				</div>
 			</section>
 		</main>
 
