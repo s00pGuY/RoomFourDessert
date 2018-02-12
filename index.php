@@ -43,11 +43,14 @@ include_once("header.php");
 				</div>
 			</section>
 			<section class="img-gallery">
-				<div class="wrapper">
-					<h2>Gallery</h2>
-					<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
-					<a href="gallery.php" class="btn">View gallery</a>
-					<div class="showcase flex">
+				<div class="wrapper flex">
+					<div class="split">
+						<h2>Gallery</h2>
+						<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
+						<a href="gallery.php" class="btn">View gallery</a>
+					</div>
+					<div class="split flex">
+					<!-- recommended image aspect ratio - 16:9 -->
 <?php 
 $dir = "assets/images/gallery/";
 $imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
@@ -55,7 +58,7 @@ shuffle($imgs);
 $indent = '						'; //Allows readable code when viewing scource
 
 for($i = 0; $i < 4; $i++) {
-	echo $indent . '<div class="img-wrapper"><img src="' . $imgs[$i] . '" alt=""></div>
+	echo $indent . '<div class="img-wrapper flex"><img src="' . $imgs[$i] . '" alt=""></div>
 ';
 }
 ?>
