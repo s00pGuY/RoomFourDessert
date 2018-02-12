@@ -39,7 +39,7 @@ include_once("header.php");
 							<p>We are proud to be official stockists of this luxury gourmet ice cream which is a multiple recipient of the "Cool Brands Award".</p>
 							<p>We serve only Movenpick with all of our desserts, guaranteeing you the very best quality ice cream with every indulgent Room Four Dessert moment</p>
 						</div>
-						<div class="catering">
+						<div class="event-catering">
 							<h3>Event catering</h3>
 							<p>Let us do the hard work, impress your guests with a stylish and tasty winning combination. Catering fit for any occasion. You can tailor it to however specific your requirments/tastes.</p>
 							<a href="event-catering.php" class="btn">See more</a>
