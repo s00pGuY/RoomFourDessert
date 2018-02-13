@@ -23,7 +23,7 @@ include_once("header.php");
 				</div>
 			</section>
 			<section class="showcase hero">
-				<div class="wrapper">
+				<div class="wrapper flex">
 					<?php
 						$dir = "assets/images/gallery/";
 						$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
