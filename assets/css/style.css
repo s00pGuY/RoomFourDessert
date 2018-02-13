@@ -433,6 +433,11 @@ textarea.formInput {
 	margin: 0.4rem;
 }
 
+.featured .img-wrapper {
+	width: 90vw;
+	height: 60vh;
+}
+
 @media (min-width: 500px) {
 	body {
 		padding-bottom: 100rem;
@@ -542,6 +547,11 @@ textarea.formInput {
 		width: 38rem;
 		height: 38rem;
 		margin: 0.8rem;
+	}
+
+	.featured .img-wrapper {
+		width: auto;
+		height: 25rem;
 	}
 }
 
