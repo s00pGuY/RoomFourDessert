@@ -538,7 +538,7 @@ textarea.formInput {
 		padding: 2rem 0;
 	}
 	
-	.food .wrapper::before, .about-ext .wrapper::after, .events-details::after, .events-contact::before {
+	.food .wrapper::before, .about-ext .wrapper::before, .events-details::after, .events-contact::before {
 		content: '';
 		width: 45%;
 		margin: 0 auto;
@@ -608,7 +608,7 @@ textarea.formInput {
 	background-image: url(../images/bg-images/teaserbox_100210.jpg);
 }
 
-.catering::before, .about-ext .wrapper::after {
+.catering::before, .about-ext .wrapper::before {
 	background-image: url(../images/bg-images/teaserbox_100211.jpg);
 }
 
