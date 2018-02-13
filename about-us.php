@@ -12,13 +12,10 @@ include_once("header.php");
 				</div>
 			</section>
 			<section class="about-us">
-				<div class="wrapper flex">
+				<div class="wrapper">
 					<div class="split">
 						<h2>Room Four Dessert</h2>
 						<p>We offer an indulgent range of desserts ranging from the old school custard based desserts for traditionalists to rich and luxurious treats for the dessert aficionado. We also offer freshly made waffles/crepes/pancakes and hot cookie dough served with Movenpick’s finest gourmet ice-cream.</p>
-					</div>
-					<div class="split">
-						<!-- img -->
 					</div>
 				</div>
 			</section>
