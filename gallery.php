@@ -11,7 +11,7 @@ include_once("header.php");
 					<h1>Gallery</h1>
 				</div>
 			</section>
-			<section class="pdf-menu">
+			<section class="featured">
 				<div class="wrapper flex">
 					<div class="split">
 						<h2>Send us pictures</h2>
@@ -27,7 +27,7 @@ include_once("header.php");
 								if (file_exists($img) && $count === 0) {
 									$count++;
 									list($width, $height) = getimagesize($img);
-									echo '<img src="' . $img . '" width="' . $width . '" height="' . $height . '" alt="">';
+									echo '<div class="img-wrapper flex"><img src="' . $img . '" width="' . $width . '" height="' . $height . '" alt=""></div>';
 								}
 							}
 						?>
