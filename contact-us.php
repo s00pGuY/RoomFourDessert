@@ -2,6 +2,7 @@
 $page_title = 'Contact us - Room Four Dessert';
 $page_desc = '';
 $page_keywords = '';
+$scripts = 'src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCecXrrYdleRB2-cbvd7AF-XqSlfiU8eOw&libraries=places&callback=initMap" async defer';
 include_once("header.php");
 ?>
 
@@ -38,9 +39,7 @@ include_once("header.php");
 				</div>
 			</section>
 			<section class="map">
-				<div class="wrapper">
-					<!-- Interactive Map of location -->
-				</div>
+				<div class="map-wrapper" id="map"></div>
 			</section>
 		</main>
 

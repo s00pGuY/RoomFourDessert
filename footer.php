@@ -54,5 +54,10 @@
 		</footer>
 	</div>
 <script src="assets/js/script.js"></script>
+<?php 
+if (isset($scripts)) {
+	echo '<script ' . $scripts . '></script>';
+}
+?>
 </body>
 </html>
