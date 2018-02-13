@@ -582,11 +582,11 @@ textarea.formInput {
 
 
 /* Temp BG images */
-.home::before {
+.home::before, .about-ext::before {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
 }
 
-.about::before {
+.about::before, .ajax-menu::before {
 	background-image: url(../images/bg-images/teaserbox_100257.jpg);
 }
 
@@ -602,7 +602,7 @@ textarea.formInput {
 	background-image: url(../images/bg-images/teaserbox_757915.jpg);
 }
 
-.contact::before {
+.contact::before, .showcase::before {
 	background-image: url(../images/bg-images/teaserbox_100256.jpg);
 }
 	
