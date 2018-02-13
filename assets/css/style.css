@@ -433,31 +433,6 @@ textarea.formInput {
 	margin: 0.4rem;
 }
 
-/* Temp BG images */
-.home::before {
-	background-image: url(../images/bg-images/teaserbox_757914.jpg);
-}
-
-.about::before {
-	background-image: url(../images/bg-images/teaserbox_100257.jpg);
-}
-
-.food::before, .menus::before {
-	background-image: url(../images/bg-images/teaserbox_100210.jpg);
-}
-
-.catering::before {
-	background-image: url(../images/bg-images/teaserbox_100211.jpg);
-}
-
-.img-gallery::before {
-	background-image: url(../images/bg-images/teaserbox_757915.jpg);
-}
-
-.contact::before {
-	background-image: url(../images/bg-images/teaserbox_100256.jpg);
-}
-
 @media (min-width: 500px) {
 	body {
 		padding-bottom: 100rem;
@@ -550,12 +525,12 @@ textarea.formInput {
 		width: 45%;
 	}
 	
-	.food .wrapper::before {
+	.food .wrapper::before, .events-details::after, .events-contact::before {
 		content: '';
 		width: 45%;
 		margin: 0 auto;
 		height: 50rem;
-		background: url(../images/bg-images/showbox.png) no-repeat scroll center;
+		background: no-repeat scroll center;
 		background-size: cover;
 	}
 	
@@ -599,4 +574,34 @@ textarea.formInput {
 		width: 38rem;
 		height: 38rem;
 	}
+}
+
+
+/* Temp BG images */
+.home::before {
+	background-image: url(../images/bg-images/teaserbox_757914.jpg);
+}
+
+.about::before {
+	background-image: url(../images/bg-images/teaserbox_100257.jpg);
+}
+
+.food::before, .menus::before {
+	background-image: url(../images/bg-images/teaserbox_100210.jpg);
+}
+
+.catering::before {
+	background-image: url(../images/bg-images/teaserbox_100211.jpg);
+}
+
+.img-gallery::before {
+	background-image: url(../images/bg-images/teaserbox_757915.jpg);
+}
+
+.contact::before {
+	background-image: url(../images/bg-images/teaserbox_100256.jpg);
+}
+	
+.food .wrapper::before, .events-details::after, .events-contact::before {
+	background-image: url(../images/bg-images/showbox.png);
 }
