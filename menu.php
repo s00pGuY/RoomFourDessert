@@ -13,7 +13,10 @@ include_once("header.php");
 			</section>
 			<section class="pdf-menu">
 				<div class="wrapper">
-					<h2>Download our menu</h2>
+					<div class="split">
+						<h2>Download our menu</h2>
+						<a href="assets/pdf/menu.pdf" class="btn">Open menu</a>
+					</div>
 				</div>
 			</section>
 			<section class="ajax-menu hero">
