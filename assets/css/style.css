@@ -389,7 +389,7 @@ p {
 
 .img-gallery .split.flex {
 	width: 100%;
-	height: 30rem;
+	height: 40rem;
 }
 
 .img-wrapper {
@@ -483,6 +483,10 @@ textarea.formInput {
 	.hours, .social {
 		width: 24rem;
 		margin: 0 auto;
+	}
+	
+	.img-gallery .split.flex {
+		height: 60rem;
 	}
 }
 
