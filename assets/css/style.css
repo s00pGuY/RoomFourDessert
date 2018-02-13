@@ -435,7 +435,7 @@ textarea.formInput {
 
 .featured .img-wrapper {
 	width: 90vw;
-	height: 60vh;
+	height: 35rem;
 }
 
 @media (min-width: 500px) {
@@ -451,7 +451,7 @@ textarea.formInput {
 		max-width: 120rem;
 	}
 	
-	.img-gallery .split.flex {
+	.img-gallery .split.flex, .featured .img-wrapper {
 		height: 45rem;
 	}
 	
@@ -485,7 +485,7 @@ textarea.formInput {
 		margin: 0 auto;
 	}
 	
-	.img-gallery .split.flex {
+	.img-gallery .split.flex, .featured .img-wrapper {
 		height: 60rem;
 	}
 }
