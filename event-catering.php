@@ -35,9 +35,9 @@ include_once("header.php");
 						$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
 						shuffle($imgs);
 
-						foreach($imgs as $img) {
-							list($width, $height) = getimagesize($img);
-							echo '<div class="img-wrapper flex"><img src="' . $img . '" width="' . $width . '" height="' . $height . '" alt=""></div>
+						for($i = 0; $i < floor(count($imgs) / 3) * 3; $i++) {
+							list($width, $height) = getimagesize($imgs[$i]);
+							echo '<div class="img-wrapper flex"><img src="' . $imgs[$i] . '" width="' . $width . '" height="' . $height . '" alt=""></div>
 						';
 						}
 					?>
