@@ -525,6 +525,10 @@ textarea.formInput {
 		width: 45%;
 	}
 	
+	.events .wrapper {
+		padding: 2rem 0;
+	}
+	
 	.food .wrapper::before, .events-details::after, .events-contact::before {
 		content: '';
 		width: 45%;
