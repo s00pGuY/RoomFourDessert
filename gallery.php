@@ -18,7 +18,19 @@ include_once("header.php");
 						<p>Send us your pictures by email, or via our social media pages to feature on the gallery page. Every month, the featured picture will win a prize.</p>
 					</div>
 					<div class="split">
-						<!-- Featured picture of the month -->
+						<?php 
+							$dir = "assets/images/gallery/featured";
+							$imgs = glob($dir . ".{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+					
+							$count = 0;
+							foreach ($imgs as $img) {
+								if (file_exists($img) && $count === 0) {
+									$count++;
+									list($width, $height) = getimagesize($img);
+									echo '<img src="' . $img . '" width="' . $width . '" height="' . $height . '" alt="">';
+								}
+							}
+						?>
 					</div>
 				</div>
 			</section>
