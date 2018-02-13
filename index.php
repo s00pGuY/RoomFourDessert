@@ -55,7 +55,7 @@ include_once("header.php");
 						<a href="gallery.php" class="btn">View gallery</a>
 					</div>
 					<div class="split flex">
-					<!-- recommended image aspect ratio - 16:9 -->
+					<!-- recommended image aspect ratio - wider than 1.2 -->
 						<?php
 							$dir = "assets/images/gallery/";
 							$imgs = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
