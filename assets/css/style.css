@@ -427,6 +427,12 @@ textarea.formInput {
     resize: vertical;
 }
 
+.showcase .img-wrapper {
+	width: 27vw;
+	height: 27vw;
+	margin: 0.4rem;
+}
+
 /* Temp BG images */
 .home::before {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
@@ -467,6 +473,12 @@ textarea.formInput {
 	
 	.img-gallery .split.flex {
 		height: 45rem;
+	}
+	
+	.showcase .img-wrapper {
+		width: 29vw;
+		height: 29vw;
+		margin: 0.6rem;
 	}
 }
 
@@ -550,6 +562,7 @@ textarea.formInput {
 	.img-gallery .split.flex {
 		width: 38rem;
 		height: 38rem;
+		margin: 0.8rem;
 	}
 }
 
@@ -578,5 +591,12 @@ textarea.formInput {
 	.img-gallery .split.flex {
 		width: 50rem;
 		height: 50rem;
+	}
+}
+
+@media (min-width: 1320px) {
+	.showcase .img-wrapper {
+		width: 38rem;
+		height: 38rem;
 	}
 }
