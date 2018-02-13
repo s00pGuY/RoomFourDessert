@@ -11,7 +11,7 @@ include_once("header.php");
 					<h1>About us</h1>
 				</div>
 			</section>
-			<section class="about-us">
+			<section class="about">
 				<div class="wrapper flex">
 					<div class="split">
 						<h2>Room Four Dessert</h2>
