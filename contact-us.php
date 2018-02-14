@@ -2,7 +2,7 @@
 $page_title = 'Contact us - Room Four Dessert';
 $page_desc = '';
 $page_keywords = '';
-$scripts = 'src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCecXrrYdleRB2-cbvd7AF-XqSlfiU8eOw&libraries=places&callback=initMap" async defer';
+$scripts = 'src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBisDclpL_8JqQMcYsovWCBOFWH1kKursk&libraries=places&callback=initMap" async defer';
 include_once("header.php");
 ?>
 
