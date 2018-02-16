@@ -12,7 +12,7 @@ include_once("header.php");
 					<h1>Contact us</h1>
 				</div>
 			</section>
-			<section class="contact-form">
+			<section class="contact">
 				<div class="wrapper">
 					<h2>Send us a message</h2>
 					<form action="#">
