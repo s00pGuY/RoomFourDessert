@@ -18,19 +18,19 @@ include_once("header.php");
 					<form action="#">
 						<p>
 							<label for="name">Name</label>
-							<input type="text" name="realname" id="name" class="formInput">
+							<input type="text" name="Name" id="name" class="formInput">
 						</p>
 						<p>
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email" class="formInput">
+							<input type="email" name="Email" id="email" class="formInput">
 						</p>
 						<p>
 							<label for="phone">Telephone</label>
-							<input type="text" name="subject" id="phone" class="formInput">
+							<input type="text" name="Phone" id="phone" class="formInput">
 						</p>
 						<p>
 							<label for="msg">Message</label>
-							<textarea name="message" id="msg" class="formInput"></textarea>
+							<textarea name="Message" id="msg" class="formInput"></textarea>
 						</p>
 						<p>
 							<input type="submit" value="Send" class="btn">
