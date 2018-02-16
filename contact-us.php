@@ -16,12 +16,13 @@ include_once("header.php");
 				<div class="wrapper">
 					<h2>Send us a message</h2>
 					<form action="#">
+						<p>Note: Fields marked with * are required</p>
 						<p>
-							<label for="name">Name</label>
+							<label for="name">Name*</label>
 							<input type="text" name="Name" id="name" class="formInput">
 						</p>
 						<p>
-							<label for="email">Email</label>
+							<label for="email">Email*</label>
 							<input type="email" name="Email" id="email" class="formInput">
 						</p>
 						<p>
@@ -29,7 +30,7 @@ include_once("header.php");
 							<input type="text" name="Phone" id="phone" class="formInput">
 						</p>
 						<p>
-							<label for="msg">Message</label>
+							<label for="msg">Message*</label>
 							<textarea name="Message" id="msg" class="formInput"></textarea>
 						</p>
 						<p>
