@@ -409,6 +409,10 @@ p {
 	max-width: 70rem;
 }
 
+.contact form p:first-child {
+	margin-bottom: 1.2rem;
+}
+
 label, .contact .btn {
 	display: inline-block;
 	width: 10rem;
@@ -612,7 +616,7 @@ textarea.formInput {
 	}
 	
 	textarea.formInput {
-		min-height: 15rem;
+		min-height: 10rem;
 	}
 }
 
