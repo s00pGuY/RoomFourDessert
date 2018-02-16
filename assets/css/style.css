@@ -438,6 +438,11 @@ textarea.formInput {
 	height: 35rem;
 }
 
+.js-menu .btn {
+	width: 20rem;
+	margin: 0.4rem;
+}
+
 .map {
 	margin: 0.8rem 0;
 	padding: 0;
@@ -612,7 +617,7 @@ textarea.formInput {
 	background-image: url(../images/bg-images/teaserbox_757914.jpg);
 }
 
-.about::before, .ajax-menu::before {
+.about::before, .js-menu::before {
 	background-image: url(../images/bg-images/teaserbox_100257.jpg);
 }
 
