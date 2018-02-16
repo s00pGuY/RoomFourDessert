@@ -73,7 +73,7 @@ include_once("header.php");
 			<section class="contact flex hero">
 				<div class="wrapper">
 					<h2>Contact Us</h2>
-					<form action="#">
+					<form method="POST" action="https://formspree.io/info@roomfourdessert.co.uk" id="contact-form">
 						<p>Note: Fields marked with * are required</p>
 						<p>
 							<label for="name">Name*</label>
