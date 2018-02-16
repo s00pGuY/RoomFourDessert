@@ -405,6 +405,10 @@ p {
 	height: 100%;
 }
 
+.contact .wrapper {
+	max-width: 70rem;
+}
+
 label, .contact .btn {
 	display: inline-block;
 	width: 10rem;
@@ -574,6 +578,10 @@ textarea.formInput {
 		width: auto;
 		height: 25rem;
 	}
+	
+	textarea.formInput {
+		min-height: 10rem;
+	}
 }
 
 @media (min-width: 976px) {
@@ -601,6 +609,10 @@ textarea.formInput {
 	.img-gallery .split.flex {
 		width: 50rem;
 		height: 50rem;
+	}
+	
+	textarea.formInput {
+		min-height: 15rem;
 	}
 }
 
