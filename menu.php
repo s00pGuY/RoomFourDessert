@@ -15,6 +15,7 @@ include_once("header.php");
 				<div class="wrapper">
 					<div class="split">
 						<h2>Download our menu</h2>
+						<p>Download and save for future reference so you can either tantalize your taste buds or place your order in advance. We will have your order whether you’re eating in or taking out.  Also look out for specials and new items which may not be on the menu as of yet.</p>
 						<a href="assets/pdf/menu.pdf" class="btn">Open menu</a>
 					</div>
 				</div>
@@ -23,6 +24,7 @@ include_once("header.php");
 				<div class="wrapper flex">
 					<div class="split sel-menu">
 						<h2>View menu</h2>
+						<p>We’re not just about desserts – take a look at the full menu and see what we’re all about.</p>
 						<button class="btn" id="menu0" name="breakfast">Breakfast</button>
 						<button class="btn" id="menu1" name="lunch">Lunch</button>
 						<button class="btn" id="menu2" name="desserts">Desserts</button>
