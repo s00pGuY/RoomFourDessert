@@ -2,6 +2,31 @@ document.querySelector(".hamburger").addEventListener("click", function() {
 	document.getElementById("nav").classList.toggle("nav-open");
 });
 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+	event.preventDefault();
+	var input = {
+		name: document.getElementById('name'),
+		email: document.getElementById('email'),
+		msg: document.getElementById('msg')
+	};
+	
+	var count = 0;
+	var errors = [];
+	for (var key in input) {
+		if (input[key].value.length === 0) {
+			errors.push(input[key].name);
+		} else {
+			count++;
+		}
+	}
+	
+	if (count === Object.keys(input).length) {
+		document.getElementById('contact-form').submit();
+	} else {
+		window.alert("Please fill in the following fields: " + errors.join(", ") + ".");
+	}
+});
+
 var findMenu = document.getElementsByClassName("sel-menu");
 
 //Prevents executing on pages without the sel-menu class
