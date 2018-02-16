@@ -25,16 +25,29 @@ include_once("header.php");
 					<div class="split sel-menu">
 						<h2>View menu</h2>
 						<p>We’re not just about desserts – take a look at the full menu and see what we’re all about.</p>
-						<button class="btn" id="menu0" name="breakfast">Breakfast</button>
-						<button class="btn" id="menu1" name="lunch">Lunch</button>
-						<button class="btn" id="menu2" name="desserts">Desserts</button>
-						<button class="btn" id="menu3" name="ice-cream-sundaes">Ice Cream & Sundaes</button>
-						<button class="btn" id="menu4" name="waffles-crepes-pancakes">Waffles, Crepes & Pancakes</button>
-						<button class="btn" id="menu5" name="cold-drinks">Cold Drinks</button>
-						<button class="btn" id="menu6" name="hot-drinks">Hot Drinks</button>
+						<button class="btn" id="menu0" name="breakfast.png">Breakfast</button>
+						<button class="btn" id="menu1" name="lunch.png">Lunch</button>
+						<button class="btn" id="menu2" name="desserts.png">Desserts</button>
+						<button class="btn" id="menu3" name="ice-cream-sundaes.png">Ice Cream & Sundaes</button>
+						<button class="btn" id="menu4" name="waffles-crepes-pancakes.png">Waffles, Crepes & Pancakes</button>
+						<button class="btn" id="menu5" name="cold-drinks.png">Cold Drinks</button>
+						<button class="btn" id="menu6" name="hot-drinks.png">Hot Drinks</button>
+						<?php 
+							$dir = "assets/images/menu/offer";
+							$offers = glob($dir . "*.{jpg,gif,png,jpeg,JPG,GIF,PNG,JPEG}", GLOB_BRACE);
+					
+							$count = 6;
+							foreach ($offers as $offer) {
+								$count++;
+								if (file_exists($offer)) {
+									echo '<button class="btn" id="menu' . $count . '" name="' . str_replace($dir, "offer", $offer) . '">Special offer ' . ($count - 6) . '</button>
+									';
+								}
+							}
+						?>
 					</div>
 					<div class="split">
-						<img src="assets/images/menu/desserts.jpeg" id="menu-img" width="738" height="1044">
+						<img src="assets/images/menu/desserts.png" id="menu-img" width="738" height="1044">
 					</div>
 				</div>
 			</section>
