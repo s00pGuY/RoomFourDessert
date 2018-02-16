@@ -7,7 +7,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro contact flex hero">
+			<section class="intro contact-page flex hero">
 				<div class="wrapper">
 					<h1>Contact us</h1>
 				</div>
