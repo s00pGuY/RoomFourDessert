@@ -20,7 +20,7 @@ include_once("header.php");
 					</div>
 				</div>
 			</section>
-			<section class="ajax-menu hero">
+			<section class="js-menu hero">
 				<div class="wrapper flex">
 					<div class="split sel-menu">
 						<h2>View menu</h2>
@@ -28,8 +28,8 @@ include_once("header.php");
 						<button class="btn" id="menu0" name="breakfast.png">Breakfast</button>
 						<button class="btn" id="menu1" name="lunch.png">Lunch</button>
 						<button class="btn" id="menu2" name="desserts.png">Desserts</button>
-						<button class="btn" id="menu3" name="ice-cream-sundaes.png">Ice Cream & Sundaes</button>
-						<button class="btn" id="menu4" name="waffles-crepes-pancakes.png">Waffles, Crepes & Pancakes</button>
+						<button class="btn" id="menu3" name="ice-cream-sundaes.png">Ice Cream & more</button>
+						<button class="btn" id="menu4" name="waffles-crepes-pancakes.png">Waffles & more</button>
 						<button class="btn" id="menu5" name="cold-drinks.png">Cold Drinks</button>
 						<button class="btn" id="menu6" name="hot-drinks.png">Hot Drinks</button>
 						<?php 
