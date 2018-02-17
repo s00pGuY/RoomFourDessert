@@ -46,7 +46,7 @@
 					<img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt="Room Four Dessert logo">
 				</a>
 				<nav role="navigation" id="nav">
-					<button class="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="navigation">
+					<button class="hamburger hamburger--elastic" type="button">
 						<span class="hamburger-box">
 							<span class="hamburger-inner"></span>
 						</span>
