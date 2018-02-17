@@ -1,7 +1,7 @@
 <?php 
-$page_title = 'Room Four Dessert - Home';
-$page_desc = '';
-$page_keywords = '';
+$page_title = "Room Four Dessert - Home";
+$page_desc = "Award winning desserts, Bolton's premier dessert house. Whet your appetite with our extensive menu and visit us to see what extras are on offer.";
+$page_keywords = "Room Four Dessert, Room 4 Dessert, Room 4, Dessert, Dessert Bolton, Dessert catering, Event catering";
 include_once("header.php");
 ?>
 

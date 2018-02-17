@@ -1,7 +1,7 @@
 <?php 
-$page_title = 'About us - Room Four Dessert';
-$page_desc = '';
-$page_keywords = '';
+$page_title = "About us - Room Four Dessert";
+$page_desc = "After much research (or tasting in the name of research), find out what makes us Bolton's premier dessert house.";
+$page_keywords = "Room Four Dessert, Room 4 Dessert, Room 4, Dessert, Dessert Bolton, Dessert catering, Event catering, about Room Four Dessert, About us";
 include_once("header.php");
 ?>
 

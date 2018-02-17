@@ -1,7 +1,7 @@
 <?php 
-$page_title = 'Contact us - Room Four Dessert';
-$page_desc = '';
-$page_keywords = '';
+$page_title = "Contact us - Room Four Dessert";
+$page_desc = "Want to know more about us? Let's get in touch, there are many ways to contact us, either by phone or by email. Find out more on ways to contact us.";
+$page_keywords = "Room Four Dessert, Room 4 Dessert, Room 4, Dessert, Dessert Bolton, Dessert catering, Event catering, Room Four Dessert contact details, Contact details";
 $scripts = 'src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBisDclpL_8JqQMcYsovWCBOFWH1kKursk&libraries=places&callback=initMap" async defer';
 include_once("header.php");
 ?>

@@ -1,7 +1,7 @@
 <?php 
-$page_title = 'Gallery - Room Four Dessert';
-$page_desc = '';
-$page_keywords = '';
+$page_title = "Gallery - Room Four Dessert";
+$page_desc = "We love to impress you with a stylish and tasty winning combination, take a look at our gallery to see our luxurious desserts.";
+$page_keywords = "Room Four Dessert, Room 4 Dessert, Room 4, Dessert, Dessert Bolton, Dessert catering, Event catering, Room Four Dessert gallery, Room Four Dessert pictures, Gallery, Pictures";
 include_once("header.php");
 ?>
 

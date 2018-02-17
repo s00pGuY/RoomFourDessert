@@ -1,7 +1,7 @@
 <?php 
-$page_title = 'Menu - Room Four Dessert';
-$page_desc = '';
-$page_keywords = '';
+$page_title = "Menu - Room Four Dessert";
+$page_desc = "Take a look at our menu to see what we're all about, we offer something for every dessert aficionado, so we can assure you that you will be spoilt for choice.";
+$page_keywords = "Room Four Dessert, Room 4 Dessert, Room 4, Dessert, Dessert Bolton, Dessert catering, Event catering, Room Four Dessert menu, Dessert menu, Dessert";
 include_once("header.php");
 ?>
 
