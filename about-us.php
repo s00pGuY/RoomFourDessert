@@ -17,6 +17,7 @@ include_once("header.php");
 						<h2>Room Four Dessert</h2>
 						<p>We offer an indulgent range of desserts ranging from the old school custard based desserts for traditionalists to rich and luxurious treats for the dessert aficionado. We also offer freshly made waffles/crepes/pancakes and hot cookie dough served with Movenpick’s finest gourmet ice-cream.</p>
 					</div>
+				</div>
 				<div class="split">
 					<img src="assets/images/bg-images/cupcakes.jpg" width="400" height="220" alt="">
 				</div>
