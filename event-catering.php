@@ -30,7 +30,7 @@ include_once("header.php");
 					</div>
 				</div>
 			</section>
-			<section class="showcase hero">
+			<section class="showcase events-gallery hero">
 				<div class="wrapper flex">
 					<?php
 						$dir = "assets/images/events/";

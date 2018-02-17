@@ -6,7 +6,7 @@ include_once("header.php");
 ?>
 
 		<main id="content" role="main">
-			<section class="intro img-gallery flex hero">
+			<section class="intro img-page flex hero">
 				<div class="wrapper">
 					<h1>Gallery</h1>
 				</div>
@@ -34,7 +34,7 @@ include_once("header.php");
 					</div>
 				</div>
 			</section>
-			<section class="showcase hero">
+			<section class="showcase image-gallery hero">
 				<div class="wrapper flex">
 					<?php
 						$dir = "assets/images/gallery/";
