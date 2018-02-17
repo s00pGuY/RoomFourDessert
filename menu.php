@@ -47,7 +47,7 @@ include_once("header.php");
 						?>
 					</div>
 					<div class="split">
-						<img src="assets/images/menu/desserts.png" id="menu-img" width="738" height="1044">
+						<img src="assets/images/menu/desserts.png" id="menu-img" width="738" height="1044" alt="">
 					</div>
 				</div>
 			</section>
