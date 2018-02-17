@@ -28,22 +28,22 @@
 		<header role="banner">
 			<div class="wrapper">
 				<p class="sr-only sr-only-focusable"><a href="#content" title="Go to the main content">Skip to content</a></p>
-				<a href="index.php" class="logo">
-					<img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt="">
+				<a href="index.php" class="logo" title="Go to the homepage">
+					<img src="assets/images/room-four-dessert-logo.svg" width="300" height="105" alt="Room Four Dessert logo">
 				</a>
 				<nav role="navigation" id="nav">
-					<button class="hamburger hamburger--elastic" type="button">
+					<button class="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="navigation">
 						<span class="hamburger-box">
 							<span class="hamburger-inner"></span>
 						</span>
 					</button>
 					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="about-us.php">About</a></li>
-						<li><a href="menu.php">Menu</a></li>
-						<li><a href="event-catering.php">Catering</a></li>
-						<li><a href="gallery.php">Gallery</a></li>
-						<li><a href="contact-us.php">Contact us</a></li>
+						<li><a href="index.php" title="Go to the homepage">Home</a></li>
+						<li><a href="about-us.php" title="Go to the about us page">About</a></li>
+						<li><a href="menu.php" title="Go to the menu page">Menu</a></li>
+						<li><a href="event-catering.php" title="Go to the catering page">Catering</a></li>
+						<li><a href="gallery.php" title="Go to the gallery page">Gallery</a></li>
+						<li><a href="contact-us.php" title="Go to the contact us page">Contact us</a></li>
 					</ul>
 				</nav>
 			</div>

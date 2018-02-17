@@ -3,7 +3,7 @@
 				<ul class="flex">
 					<li class="location">
 						<h2>Find us</h2>
-						<a href="https://www.google.com/maps/search/?api=1&query=Room%20Four%20Dessert,%20Bolton" class="location-pin">
+						<a href="https://www.google.com/maps/search/?api=1&query=Room%20Four%20Dessert,%20Bolton" class="location-pin" >
 							<img src="assets/images/location.svg" width="28" height="28" alt="">
 							<span>Google maps</span>
 						</a>
@@ -26,7 +26,7 @@
 					<li class="awards">
 						<h2>Recent awards</h2>
 						<a href="https://www.thebestof.co.uk/local/bolton/business-guide/feature/room-four-dessert/">
-							<img src="assets/images/tbo-award.png" width="150" height="150" alt="">
+							<img src="assets/images/tbo-award.png" width="150" height="150" alt="Business of the year 2018 award">
 						</a>
 					</li>
 					<li class="social">
