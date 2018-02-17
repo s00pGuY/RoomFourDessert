@@ -21,7 +21,7 @@ include_once("header.php");
 						<p>We offer something for every dessert aficionado alongside a finely honed breakfast and lunch menu to offer something to precede the most important part of a meal, anytime of the day.</p>
 					</div>
 					<div class="split">
-						<img src="assets/images/bg-images/showbox.png" width="455" height="300" alt="">
+						<img src="assets/images/bg-images/inside.jpg" width="400" height="267" alt="">
 					</div>
 				</div>
 			</section>

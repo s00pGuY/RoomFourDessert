@@ -18,7 +18,7 @@ include_once("header.php");
 						<p>We offer an indulgent range of desserts ranging from the old school custard based desserts for traditionalists to rich and luxurious treats for the dessert aficionado. We also offer freshly made waffles/crepes/pancakes and hot cookie dough served with Movenpick’s finest gourmet ice-cream.</p>
 					</div>
 				<div class="split">
-					<img src="assets/images/bg-images/showbox.png" width="455" height="300" alt="">
+					<img src="assets/images/bg-images/cupcakes.jpg" width="400" height="220" alt="">
 				</div>
 			</section>
 			<section class="about-ext hero">
