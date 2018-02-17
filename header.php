@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Open graph meta tags -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="<?php echo 'https://www.roomfourdessert.co.uk/' . $_SERVER['REQUEST_URI']; ?>">
+	<meta property="og:url" content="<?php echo 'https://www.roomfourdessert.co.uk' . $_SERVER['REQUEST_URI']; ?>">
 	<meta property="og:title" content="<?php echo $page_title; ?>">
 	<meta property="og:description" content="<?php echo $page_desc; ?>">
 	<meta property="og:image" content="https://www.roomfourdessert.co.uk/assets/images/meta-img.jpg">
