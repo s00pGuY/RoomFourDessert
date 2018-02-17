@@ -317,7 +317,7 @@ section {
 	top: 0;
 	bottom: 0;
 	z-index: -1;
-	opacity: 0.6;
+	opacity: 0.8;
 	background: no-repeat fixed center;
 	background-size: cover;
 }
@@ -510,7 +510,7 @@ textarea.formInput {
 		margin: 0 auto;
 	}
 	
-	.img-gallery .split.flex, .featured .img-wrapper {
+	.img-gallery .split.flex {
 		height: 60rem;
 	}
 }
@@ -627,32 +627,66 @@ textarea.formInput {
 	}
 }
 
-
-/* Temp BG images */
-.home::before, .about-ext::before {
-	background-image: url(../images/bg-images/teaserbox_757914.jpg);
+.home::before {
+	background-image: url(../images/bg-images/ice-cream.jpg);
 }
 
-.about::before, .js-menu::before {
-	background-image: url(../images/bg-images/teaserbox_100257.jpg);
+.food::before {
+	background-image: url(../images/bg-images/displaybox.jpg);
 }
 
-.food::before, .menus::before {
-	background-image: url(../images/bg-images/teaserbox_100210.jpg);
+.food .wrapper::before {
+	background-image: url(../images/bg-images/movenpick.png);
 }
 
-.catering::before, .about-ext .wrapper::before {
-	background-image: url(../images/bg-images/teaserbox_100211.jpg);
+.contact::before {
+	background-image: url(../images/bg-images/gift-card.jpg);
 }
 
-.img-gallery::before {
-	background-image: url(../images/bg-images/teaserbox_757915.jpg);
+.about::before {
+	background-image: url(../images/bg-images/cups.jpg);
 }
 
-.contact::before, .showcase::before {
-	background-image: url(../images/bg-images/teaserbox_100256.jpg);
+.about-ext::before {
+	background-image: url(../images/bg-images/treats.jpg);
 }
-	
-.food .wrapper::before, .events-details::after, .events-contact::before {
-	background-image: url(../images/bg-images/showbox.png);
+
+.about-ext .wrapper::before {
+	background-image: url(../images/bg-images/coffee-beans.jpg);
+}
+
+.menus::before {
+	background-image: url(../images/bg-images/chocolate-strawberries.jpg);
+}
+
+.js-menu::before {
+	background-image: url(../images/bg-images/cupcakes-line.jpg);
+}
+
+.catering::before {
+	background-image: url(../images/bg-images/events-desserts.jpg);
+}
+
+.events-details::after {
+	background-image: url(../images/bg-images/strawberry-dessert.jpg);
+}
+
+.events-contact::before {
+	background-image: url(../images/bg-images/cheesecakes.jpg);
+}
+
+.events-gallery::before {
+	background-image: url(../images/bg-images/events-display.jpg);
+}
+
+.img-page::before {
+	background-image: url(../images/bg-images/chocolate-cake.jpg);
+}
+
+.image-gallery::before {
+	background-image: url(../images/bg-images/cupcakes-showcase.jpg);
+}
+
+.contact-page::before {
+	background-image: url(../images/bg-images/cupcakes-superheros.jpg);
 }
