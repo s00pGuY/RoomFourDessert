@@ -6,6 +6,20 @@
 	<meta name="description" content="<?php echo $page_desc; ?>">
 	<meta name="keywords" content="<?php echo $page_keywords; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Open graph meta tags -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="<?php echo 'https://www.roomfourdessert.co.uk/' . $_SERVER['REQUEST_URI']; ?>">
+	<meta property="og:title" content="<?php echo $page_title; ?>">
+	<meta property="og:description" content="<?php echo $page_desc; ?>">
+	<meta property="og:image" content="https://www.roomfourdessert.co.uk/assets/images/meta-img.jpg">
+	<!-- Twitter meta tags -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@RoomFourDessert">
+	<meta name="twitter:title" content="<?php echo $page_title; ?>">
+	<meta name="twitter:description" content="<?php echo $page_desc; ?>">
+	<meta name="twitter:image" content="https://www.roomfourdessert.co.uk/assets/images/meta-img.jpg">
+	<!-- Theme colour -->
+	<meta name="theme-color" content="#69b7c7">
 	<!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.min.js"></script>
 	<![endif]-->
