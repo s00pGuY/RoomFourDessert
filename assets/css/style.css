@@ -307,6 +307,7 @@ section {
 	min-height: 32rem;
 	position: relative;
 	background-color: rgba(0,0,0,0.6);
+	flex-direction: column;
 }
 
 .hero::before {
